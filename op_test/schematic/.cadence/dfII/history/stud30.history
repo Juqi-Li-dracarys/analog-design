@@ -1,0 +1,1 @@
+("op_test:/\top_test mylib schematic" (("open" (nil hierarchy "/{mylib op_test schematic }:a"))) (((-0.1875 -1.73125) (5.7625 1.2)) "a" "Schematics" 2))
