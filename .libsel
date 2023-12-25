@@ -1,0 +1,11 @@
+cdsLibSelect.x: 453
+cdsLibSelect.y: 216
+cdsLibSelect.width: 602
+cdsLibSelect.height: 477
+cdsLibSelect*showCategoriesButton.set: false
+cdsLibSelect.showCompression: 0
+cdsLibSelect.libColumnPercent: 27.3
+cdsLibSelect.catColumnPercent:  0.0
+cdsLibSelect.cellColumnPercent: 27.1
+cdsLibSelect.viewColumnPercent: 45.6
+cdsLibSelect.viewColumns: 0 1 1 0 0 0 0 1 0 0

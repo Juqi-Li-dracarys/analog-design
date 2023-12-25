@@ -1,0 +1,35 @@
+// Generated for: spectre
+// Generated on: Dec  4 10:14:55 2023
+// Design library name: mylib
+// Design cell name: op
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
+parameters vgs=2
+include "/home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/allModels"
+
+// Library name: mylib
+// Cell name: op
+// View name: schematic
+NM0 (net6 net3 0 0) n18 w=(220n) l=180n as=198.4f ad=198.4f ps=1.88u \
+        pd=1.88u m=(1)*(1)
+R0 (vdd! net6) resistor r=1K
+V0 (net3 0) vsource dc=vgs mag=1 type=sine sinedc=vgs ampl=100.0m freq=1K
+V1 (vdd! 0) vsource dc=3.3 type=dc
+simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+dc dc param=vgs start=0 stop=4 write="spectre.dc" oppoint=rawfile \
+    maxiters=150 maxsteps=10000 annotate=status 
+tran tran stop=2m write="spectre.ic" writefinal="spectre.fc" \
+    annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+ac ac start=0 stop=100M annotate=status 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

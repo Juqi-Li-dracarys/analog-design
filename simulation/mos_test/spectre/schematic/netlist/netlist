@@ -1,0 +1,11 @@
+
+// Library name: mylib
+// Cell name: mos_test
+// View name: schematic
+M0 (net5 net06 0 0) n33 w=(15u) l=350n as=7.2p ad=7.2p ps=30.96u pd=30.96u \
+        m=(1)*(1)
+V4 (net011 0) vsource dc=vgs_2 type=dc
+V3 (net06 0) vsource dc=vgs_1 type=dc
+V0 (net5 0) vsource dc=vds type=dc
+M1 (0 net011 net5 net5) p33 w=(15u) l=300n as=7.2p ad=7.2p ps=30.96u \
+        pd=30.96u m=(1)*(1)

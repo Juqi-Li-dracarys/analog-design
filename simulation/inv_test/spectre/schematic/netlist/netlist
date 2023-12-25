@@ -1,0 +1,20 @@
+
+// Library name: mylib
+// Cell name: inverter
+// View name: schematic
+subckt inverter in out
+    PM0 (out in vdd! vdd!) p18 w=(1.95u) l=180n as=936f ad=936f ps=4.86u \
+        pd=4.86u m=(1)*(1)
+    NM1 (out in 0 0) n18 w=(600n) l=180n as=288f ad=288f ps=2.16u pd=2.16u \
+        m=(1)*(1)
+ends inverter
+// End of subcircuit definition.
+
+// Library name: mylib
+// Cell name: inv_test
+// View name: schematic
+I0 (net1 net2) inverter
+V0 (vdd! 0) vsource dc=1.8 type=dc
+V1 (net1 0) vsource dc=vin mag=1 type=pulse val0=0 val1=1.8 period=10n \
+        rise=100p fall=100p width=4.9n
+C0 (net2 0) capacitor c=1p

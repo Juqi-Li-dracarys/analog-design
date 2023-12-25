@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("mylib" "cascode" "schematic" "spectre")
+descriptionText = "None"

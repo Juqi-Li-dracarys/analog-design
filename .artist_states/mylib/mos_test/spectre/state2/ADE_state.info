@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("mylib" "mos_test" "schematic" "spectre")
+descriptionText = "None"

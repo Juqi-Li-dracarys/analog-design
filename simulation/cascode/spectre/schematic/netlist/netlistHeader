@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Dec  7 00:27:09 2023
+// Design library name: mylib
+// Design cell name: cascode
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!

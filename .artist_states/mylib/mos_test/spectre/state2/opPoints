@@ -1,0 +1,22 @@
+_opPointKeepList = nil
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOpPointStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->index = 1
+tmp1->inLastSet = nil
+tmp1->fullName = "/M0"
+tmp1->opPoints = "rout"
+tmp1->cellName = nil
+tmp1->libName = nil
+tmp1->plotOp = nil
+tmp1->saveOp = 't
+list(tmp1)
+)
+_opPointKeepList = nconc( _opPointKeepList savedComponent) 
+savedComponent = _opPointKeepList 
+_opPointKeepList = 'unbound

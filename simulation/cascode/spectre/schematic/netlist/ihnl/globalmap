@@ -1,0 +1,16 @@
+CADENCE IHNL11140
+$model
+mylib/cascode/schematic cascode
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+com com
+pulse _gpar0
+L8 L8
+L14 L14
+L18 L18
+vac vac
+$endparam

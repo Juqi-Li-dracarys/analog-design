@@ -1,0 +1,9 @@
+
+// Library name: mylib
+// Cell name: inv_test
+// View name: schematic
+I0 (net1 net2) inverter
+V0 (vdd! 0) vsource dc=1.8 type=dc
+V1 (net1 0) vsource dc=vin mag=1 type=pulse val0=0 val1=1.8 period=10n \
+        rise=100p fall=100p width=4.9n
+C0 (net2 0) capacitor c=1p

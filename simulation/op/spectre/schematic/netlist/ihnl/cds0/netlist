@@ -1,0 +1,9 @@
+
+// Library name: mylib
+// Cell name: op
+// View name: schematic
+NM0 (net6 net3 0 0) n18 w=(220n) l=180n as=198.4f ad=198.4f ps=1.88u \
+        pd=1.88u m=(1)*(1)
+R0 (vdd! net6) resistor r=1K
+V0 (net3 0) vsource dc=vgs mag=1 type=sine sinedc=vgs ampl=100.0m freq=1K
+V1 (vdd! 0) vsource dc=3.3 type=dc

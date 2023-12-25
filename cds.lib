@@ -1,0 +1,8 @@
+# File Created by  at Wed Nov 29 14:30:22 2023
+# assisted by CdsLibEditor
+SOFTINCLUDE /opt/Cadence/IC618/share/cdssetup/cds.lib
+#Removed by ddDeleteObj: DEFINE mylib /home/vlsidesign/stud30/mylib
+#Removed by ddDeleteObj: DEFINE mylib_1 /home/vlsidesign/stud30/mylib_1
+DEFINE mylib /home/vlsidesign/stud30/mylib
+DEFINE smic18 /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/smic18
+DEFINE smic18mmrf /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/smic18mmrf

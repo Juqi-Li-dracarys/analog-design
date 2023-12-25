@@ -1,0 +1,14 @@
+CADENCE IHNL11140
+$model
+mylib/mos_test/schematic mos_test
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+vgs vgs
+v_gs_p v_gs_p
+vds vds
+vgs_2 vgs_2
+vgs_1 vgs_1
+$endparam

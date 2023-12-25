@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Dec  4 10:14:55 2023
+// Design library name: mylib
+// Design cell name: op
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!

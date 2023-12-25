@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "inv_test"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/vlsidesign/stud30/simulation/inv_test/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "mylib/inv_test/schematic" "inv_test" )
+( "mylib/inverter/schematic" "inverter" )
+ )
+( "inverter" "ihnl/cds0/map" )
+( "inv_test" "ihnl/cds1/map" )
+ )

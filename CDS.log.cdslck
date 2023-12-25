@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      stud30
+HostName                       dell01
+ProcessIdentifier              291807
+ProcessCreationTime_UTC        1703506539
+ProcessCreationTime_Readable   Mon Dec 25 20:15:39 2023 CST
+AppIdentifier                  /opt/Cadence/IC618/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /home/vlsidesign/stud30/CDS.log
+TimeEditLocked                 Mon Dec 25 20:15:39 2023 CST

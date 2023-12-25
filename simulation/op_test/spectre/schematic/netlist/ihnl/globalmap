@@ -1,0 +1,14 @@
+CADENCE IHNL11140
+$model
+mylib/cascode_op/schematic cascode_op
+mylib/op_test/schematic op_test
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+vpulse vpulse
+vcom vcom
+vac vac
+$endparam

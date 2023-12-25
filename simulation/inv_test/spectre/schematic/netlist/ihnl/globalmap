@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+mylib/inverter/schematic inverter
+mylib/inv_test/schematic inv_test
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+vin vin
+$endparam

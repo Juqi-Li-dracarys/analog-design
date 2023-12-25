@@ -1,0 +1,53 @@
+\# Program start time:     UTC 2023.12.25 12:15:42.517
+\# Local time: CST (UTC+08:00) 2023.12.25 20:15:42.517
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 10/01/2018 20:02 (ip-172-18-22-57) $
+\o Hierarchy:		/opt/Cadence/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.83  (64-bit addresses)
+\# Command line:	/opt/Cadence/IC618/tools/dfII/bin/64bit/virtuoso
+\# Host name (type):	dell01 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	localhost:12.0 (1536x864)
+\# Available geometry:			TL(0:0) BR(1535:863)
+\# X server:			Colin Harrison
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 60900031)
+\# X resource pool:	base 0xa00000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        491 MB
+\# Available memory:	    336,321 MB
+\# System memory:	    418,144 MB
+\# Maximum memory size:	    418,015 MB
+\# Max mem available:	    336,684 MB
+\# Initial memory used:	        362 MB
+\#        process size:	      1,588 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 64.00/64.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		stud30
+\o Working Directory:	dell01:/home/vlsidesign/stud30
+\# Process Id:		291807
+\o 
+\o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\w Qt Warning: QXcbConnection: XCB error: 170 (Unknown), sequence: 172, resource id: 90, major code: 146 (Unknown), minor code: 20
+\# Available memory:        336,515 MB at UTC 2023.12.25 14:27:19.025
+\# Memory report: Maximum memory size now 336,906 MB at UTC 2023.12.25 14:27:19.026
+\# Thread usage report: 65 active threads, active load 1.00 at UTC 2023.12.25 14:27:19.026
+\e IO Error 0 (Success) on Display "localhost:12.0"
+\e Aborting due to fatal X IO error.
+\w *WARNING* Process was terminated with SIGABRT signal
+\o Local time (crash) Monday 25 December 2023, 10:27:19 PM

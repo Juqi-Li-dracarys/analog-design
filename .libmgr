@@ -1,0 +1,13 @@
+cdsLibManager.x: 0
+cdsLibManager.y: 0
+cdsLibManager.width: 602
+cdsLibManager.height: 491
+cdsLibManager*msgTextWidget.height: 84
+cdsLibManager.columnWidths: 1,1,1,1
+cdsLibManager.cellFilePercent: 41
+cdsLibManager.showCompression: 0
+cdsLibManager.libColumnPercent: 27.5
+cdsLibManager.catColumnPercent:  0.0
+cdsLibManager.cellColumnPercent: 27.4
+cdsLibManager.viewColumnPercent: 45.1
+cdsLibManager.viewColumns: 0 1 1 0 0 0 0 1 0 0

@@ -1,0 +1,6 @@
+HEADER
+"PSFversion" "1.00"
+"NM0n" "smic18mmrf_n18_spectre"
+"R0n" "analogLib_res_spectre"
+"V0n" "analogLib_vsin_spectre"
+"V1n" "analogLib_vdc_spectre"

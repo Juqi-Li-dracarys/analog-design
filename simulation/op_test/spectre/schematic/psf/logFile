@@ -1,0 +1,679 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Tue Dec 26 00:34:16 2023"
+"psfversion" "1.1.0"
+"simulator" "spectre"
+"version" "20.1.0.298.isr9"
+"date" "12:34:16 AM, Tue Dec 26, 2023"
+"design" "// Generated for: spectre"
+"signalNameType" "spectre"
+"simMode" "Spectre"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"dcOp-dc" "analysisInst" (
+"dc"
+"dcOp.dc"
+"PSF"
+""
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+)
+
+"dcOpInfo-info" "analysisInst" (
+"info"
+"dcOpInfo.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-dc" "analysisInst" (
+"dc"
+"dc.dc"
+"PSF"
+""
+("vac")
+"DC Analysis `dc': vac = (0 -> 30e-06)"
+) PROP(
+"data_type" "scalar"
+)
+
+"dc-0-info" "analysisInst" (
+"info"
+"dc-0.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-1-info" "analysisInst" (
+"info"
+"dc-1.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-2-info" "analysisInst" (
+"info"
+"dc-2.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-3-info" "analysisInst" (
+"info"
+"dc-3.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-4-info" "analysisInst" (
+"info"
+"dc-4.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-5-info" "analysisInst" (
+"info"
+"dc-5.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-6-info" "analysisInst" (
+"info"
+"dc-6.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-7-info" "analysisInst" (
+"info"
+"dc-7.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-8-info" "analysisInst" (
+"info"
+"dc-8.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-9-info" "analysisInst" (
+"info"
+"dc-9.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-10-info" "analysisInst" (
+"info"
+"dc-10.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-11-info" "analysisInst" (
+"info"
+"dc-11.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-12-info" "analysisInst" (
+"info"
+"dc-12.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-13-info" "analysisInst" (
+"info"
+"dc-13.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-14-info" "analysisInst" (
+"info"
+"dc-14.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-15-info" "analysisInst" (
+"info"
+"dc-15.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-16-info" "analysisInst" (
+"info"
+"dc-16.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-17-info" "analysisInst" (
+"info"
+"dc-17.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-18-info" "analysisInst" (
+"info"
+"dc-18.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-19-info" "analysisInst" (
+"info"
+"dc-19.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-20-info" "analysisInst" (
+"info"
+"dc-20.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-21-info" "analysisInst" (
+"info"
+"dc-21.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-22-info" "analysisInst" (
+"info"
+"dc-22.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-23-info" "analysisInst" (
+"info"
+"dc-23.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-24-info" "analysisInst" (
+"info"
+"dc-24.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-25-info" "analysisInst" (
+"info"
+"dc-25.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-26-info" "analysisInst" (
+"info"
+"dc-26.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-27-info" "analysisInst" (
+"info"
+"dc-27.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-28-info" "analysisInst" (
+"info"
+"dc-28.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-29-info" "analysisInst" (
+"info"
+"dc-29.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-30-info" "analysisInst" (
+"info"
+"dc-30.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-31-info" "analysisInst" (
+"info"
+"dc-31.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-32-info" "analysisInst" (
+"info"
+"dc-32.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-33-info" "analysisInst" (
+"info"
+"dc-33.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-34-info" "analysisInst" (
+"info"
+"dc-34.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-35-info" "analysisInst" (
+"info"
+"dc-35.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-36-info" "analysisInst" (
+"info"
+"dc-36.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-37-info" "analysisInst" (
+"info"
+"dc-37.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-38-info" "analysisInst" (
+"info"
+"dc-38.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-39-info" "analysisInst" (
+"info"
+"dc-39.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-40-info" "analysisInst" (
+"info"
+"dc-40.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-41-info" "analysisInst" (
+"info"
+"dc-41.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-42-info" "analysisInst" (
+"info"
+"dc-42.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-43-info" "analysisInst" (
+"info"
+"dc-43.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-44-info" "analysisInst" (
+"info"
+"dc-44.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-45-info" "analysisInst" (
+"info"
+"dc-45.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-46-info" "analysisInst" (
+"info"
+"dc-46.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-47-info" "analysisInst" (
+"info"
+"dc-47.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-48-info" "analysisInst" (
+"info"
+"dc-48.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-49-info" "analysisInst" (
+"info"
+"dc-49.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"dc-50-info" "analysisInst" (
+"info"
+"dc-50.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"modelParameter-info" "analysisInst" (
+"info"
+"modelParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"element-info" "analysisInst" (
+"info"
+"element.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"outputParameter-info" "analysisInst" (
+"info"
+"outputParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"designParamVals-info" "analysisInst" (
+"info"
+"designParamVals.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"primitives.info.primitives"
+"PSF"
+""
+()
+"Circuit Information"
+)
+"subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"subckts.info.subckts"
+"PSF"
+""
+()
+"Circuit Information"
+)
+END

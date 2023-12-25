@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"mylib\" \"mos_test\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Dec 25 11:43:54 2023"
+"title" ""
+"analysisList" "()"
+END

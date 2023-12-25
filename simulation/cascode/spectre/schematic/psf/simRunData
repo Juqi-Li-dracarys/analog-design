@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"mylib\" \"cascode\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Dec  7 00:27:48 2023"
+"title" ""
+"analysisList" "()"
+END

@@ -1,0 +1,438 @@
+
+Spectre (R) Circuit Simulator
+Version 20.1.0.298.isr9 64bit -- 30 Jul 2021
+Copyright (C) 1989-2021 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: stud30   Host: dell01   HostID: 89692DDB   PID: 45081
+Memory  available: 345.5338 GB  physical: 404.0957 GB
+Linux   : Red Hat Enterprise Linux Server release 7.9 (Maipo)
+CPU Type: Intel(R) Xeon(R) Gold 6246R CPU @ 3.40GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [3182.7] ( 32 ),  2 [3977.7] ( 34 ),  4 [3967.8] ( 36 )
+                 6 [3614.8] ( 38 ),  8 [3734.1] ( 40 ), 10 [3999.3] ( 42 )
+                12 [3583.4] ( 44 ), 14 [3867.5] ( 46 ), 16 [3959.5] ( 48 )
+                18 [3920.3] ( 50 ), 20 [3677.0] ( 52 ), 22 [2854.2] ( 54 )
+                24 [3902.2] ( 56 ), 26 [3835.8] ( 58 ), 28 [3114.9] ( 60 )
+                30 [3866.5] ( 62 )
+        1:       1 [3931.7] ( 33 ),  3 [3451.5] ( 35 ),  5 [3318.9] ( 37 )
+                 7 [3487.8] ( 39 ),  9 [3610.8] ( 41 ), 11 [3539.5] ( 43 )
+                13 [3485.9] ( 45 ), 15 [3999.9] ( 47 ), 17 [3696.1] ( 49 )
+                19 [2628.2] ( 51 ), 21 [4094.6] ( 53 ), 23 [4085.9] ( 55 )
+                25 [1371.1] ( 57 ), 27 [3468.7] ( 59 ), 29 [2076.9] ( 61 )
+                31 [3827.7] ( 63 )
+        
+System load averages (1min, 5min, 15min) : 0.0 %, 0.1 %, 0.2 %
+Hyperthreading is enabled
+
+
+Simulating `input.scs' on dell01 at 12:34:16 AM, Tue Dec 26, 2023 (process id: 45081).
+Current working directory: /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/netlist
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /opt/Cadence/LIBERATE211/tools.lnx86/bin/spectre -64 input.scs  \
+        +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre2_3478_35 -format psfxl -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 45081
+
+Licensing Information:
+[00:34:16.519537] Configured Lic search path (20.02-p002): /opt/Cadence/lic/Cadence.dat
+
+Licensing Information:
+[00:34:16.093883] Periodic Lic check successful
+
+Loading /opt/Cadence/LIBERATE211/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /opt/Cadence/LIBERATE211/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /opt/Cadence/LIBERATE211/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /opt/Cadence/LIBERATE211/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /opt/Cadence/LIBERATE211/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/netlist/input.scs
+Reading file:  /opt/Cadence/LIBERATE211/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /usr/include/stdc-predef.h
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/allModels
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_v1p8_spe.lib
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_v1p8_spe.mdl
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_v1p8_res_spe.mdl
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_v1p8_mim_spe.mdl
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_v1p8_bjt_spe.mdl
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_v1p8_res_spe.ckt
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/res_rf.va
+Reading link:  /opt/Cadence/LIBERATE211/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /opt/Cadence/LIBERATE211/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /opt/Cadence/LIBERATE211/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /opt/Cadence/LIBERATE211/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_spe.lib
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_mos_spe.ckt
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_res_spe.ckt
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_mim_spe.ckt
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_var_spe.ckt
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_spri_ind_spe.ckt
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_diff_ind_spe.ckt
+Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_3T_diff_ind_spe.ckt
+Time for NDB Parsing: CPU = 193.838 ms, elapsed = 455.14 ms.
+Time accumulated: CPU = 237.684 ms, elapsed = 455.146 ms.
+Peak resident memory used = 74.6 Mbytes.
+
+
+Warning from spectre during circuit read-in.
+    WARNING (SFE-2654): VerilogA module `absrint_hdl' override primitive/(verilogA module) `absrint_hdl'.
+    WARNING (SFE-2654): VerilogA module `diffres_hdl' override primitive/(verilogA module) `diffres_hdl'.
+    WARNING (SFE-2654): VerilogA module `polyres_hdl' override primitive/(verilogA module) `polyres_hdl'.
+    WARNING (SFE-2654): VerilogA module `rint_hdl' override primitive/(verilogA module) `rint_hdl'.
+
+Time for Elaboration: CPU = 32.371 ms, elapsed = 16.2251 ms.
+Time accumulated: CPU = 270.258 ms, elapsed = 471.471 ms.
+Peak resident memory used = 81.8 Mbytes.
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-17101): The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+Time for EDB Visiting: CPU = 2.013 ms, elapsed = 1.01018 ms.
+Time accumulated: CPU = 272.455 ms, elapsed = 472.571 ms.
+Peak resident memory used = 82.7 Mbytes.
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2441): I0.M26: Instance length width or area does not fit the given lmax-lmin, wmax-wmin or areamax-areamin range for the model 'n33'.
+    WARNING (CMI-2441): I3.M26: Instance length width or area does not fit the given lmax-lmin, wmax-wmin or areamax-areamin range for the model 'n33'.
+
+
+Global user options:
+         psfversion = 1.1.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = allpub
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 39
+            bsim3v3 48    
+          capacitor 4     
+           resistor 11    
+            vsource 3     
+
+Analysis and control statement inventory:
+                 dc 2     
+               info 7     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Time for parsing: CPU = 4.7 ms, elapsed = 2.49887 ms.
+Time accumulated: CPU = 277.325 ms, elapsed = 475.154 ms.
+Peak resident memory used = 84.2 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre2_3478_35, ).
+
+******************
+DC Analysis `dcOp'
+******************
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 3.3 V
+I: I(V0:p) = 1.2 mA
+Convergence achieved in 24 iterations.
+DC simulation time: CPU = 5.873 ms, elapsed = 2.9881 ms.
+Total time required for dc analysis `dcOp': CPU = 5.965 ms, elapsed = 3.03006 ms.
+Time accumulated: CPU = 345.379 ms, elapsed = 535.421 ms.
+Peak resident memory used = 86.2 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+
+*************************************
+DC Analysis `dc': vac = (0 -> 30e-06)
+*************************************
+
+Opening the PSF file ../psf/dc.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+dc-0: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-0.info ...
+dc-1: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-1.info ...
+    dc: vac = 1.2e-06        (4 %), step = 600e-09         (2 %)
+dc-2: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-2.info ...
+    dc: vac = 1.8e-06        (6 %), step = 600e-09         (2 %)
+dc-3: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-3.info ...
+    dc: vac = 2.4e-06        (8 %), step = 600e-09         (2 %)
+dc-4: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-4.info ...
+    dc: vac = 3e-06         (10 %), step = 600e-09         (2 %)
+dc-5: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-5.info ...
+    dc: vac = 3.6e-06       (12 %), step = 600e-09         (2 %)
+dc-6: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-6.info ...
+    dc: vac = 4.2e-06       (14 %), step = 600e-09         (2 %)
+dc-7: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-7.info ...
+    dc: vac = 4.8e-06       (16 %), step = 600e-09         (2 %)
+dc-8: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-8.info ...
+    dc: vac = 5.4e-06       (18 %), step = 600e-09         (2 %)
+dc-9: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-9.info ...
+    dc: vac = 6e-06         (20 %), step = 600e-09         (2 %)
+dc-10: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-10.info ...
+    dc: vac = 6.6e-06       (22 %), step = 600e-09         (2 %)
+dc-11: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-11.info ...
+    dc: vac = 7.2e-06       (24 %), step = 600e-09         (2 %)
+dc-12: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-12.info ...
+    dc: vac = 7.8e-06       (26 %), step = 600e-09         (2 %)
+dc-13: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-13.info ...
+    dc: vac = 8.4e-06       (28 %), step = 600e-09         (2 %)
+dc-14: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-14.info ...
+    dc: vac = 9e-06         (30 %), step = 600e-09         (2 %)
+dc-15: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-15.info ...
+    dc: vac = 9.6e-06       (32 %), step = 600e-09         (2 %)
+dc-16: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-16.info ...
+    dc: vac = 10.2e-06      (34 %), step = 600e-09         (2 %)
+dc-17: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-17.info ...
+    dc: vac = 10.8e-06      (36 %), step = 600e-09         (2 %)
+dc-18: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-18.info ...
+    dc: vac = 11.4e-06      (38 %), step = 600e-09         (2 %)
+dc-19: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-19.info ...
+    dc: vac = 12e-06        (40 %), step = 600e-09         (2 %)
+dc-20: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-20.info ...
+    dc: vac = 12.6e-06      (42 %), step = 600e-09         (2 %)
+dc-21: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-21.info ...
+    dc: vac = 13.2e-06      (44 %), step = 600e-09         (2 %)
+dc-22: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-22.info ...
+    dc: vac = 13.8e-06      (46 %), step = 600e-09         (2 %)
+dc-23: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-23.info ...
+    dc: vac = 14.4e-06      (48 %), step = 600e-09         (2 %)
+dc-24: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-24.info ...
+    dc: vac = 15e-06        (50 %), step = 600e-09         (2 %)
+dc-25: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-25.info ...
+    dc: vac = 15.6e-06      (52 %), step = 600e-09         (2 %)
+dc-26: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-26.info ...
+    dc: vac = 16.2e-06      (54 %), step = 600e-09         (2 %)
+dc-27: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-27.info ...
+    dc: vac = 16.8e-06      (56 %), step = 600e-09         (2 %)
+dc-28: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-28.info ...
+    dc: vac = 17.4e-06      (58 %), step = 600e-09         (2 %)
+dc-29: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-29.info ...
+    dc: vac = 18e-06        (60 %), step = 600e-09         (2 %)
+dc-30: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-30.info ...
+    dc: vac = 18.6e-06      (62 %), step = 600e-09         (2 %)
+dc-31: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-31.info ...
+    dc: vac = 19.2e-06      (64 %), step = 600e-09         (2 %)
+dc-32: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-32.info ...
+    dc: vac = 19.8e-06      (66 %), step = 600e-09         (2 %)
+dc-33: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-33.info ...
+    dc: vac = 20.4e-06      (68 %), step = 600e-09         (2 %)
+dc-34: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-34.info ...
+    dc: vac = 21e-06        (70 %), step = 600e-09         (2 %)
+dc-35: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-35.info ...
+    dc: vac = 21.6e-06      (72 %), step = 600e-09         (2 %)
+dc-36: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-36.info ...
+    dc: vac = 22.2e-06      (74 %), step = 600e-09         (2 %)
+dc-37: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-37.info ...
+    dc: vac = 22.8e-06      (76 %), step = 600e-09         (2 %)
+dc-38: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-38.info ...
+    dc: vac = 23.4e-06      (78 %), step = 600e-09         (2 %)
+dc-39: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-39.info ...
+    dc: vac = 24e-06        (80 %), step = 600e-09         (2 %)
+dc-40: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-40.info ...
+    dc: vac = 24.6e-06      (82 %), step = 600e-09         (2 %)
+dc-41: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-41.info ...
+    dc: vac = 25.2e-06      (84 %), step = 600e-09         (2 %)
+dc-42: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-42.info ...
+    dc: vac = 25.8e-06      (86 %), step = 600e-09         (2 %)
+dc-43: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-43.info ...
+    dc: vac = 26.4e-06      (88 %), step = 600e-09         (2 %)
+dc-44: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-44.info ...
+    dc: vac = 27e-06        (90 %), step = 600e-09         (2 %)
+dc-45: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-45.info ...
+    dc: vac = 27.6e-06      (92 %), step = 600e-09         (2 %)
+dc-46: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-46.info ...
+    dc: vac = 28.2e-06      (94 %), step = 600e-09         (2 %)
+dc-47: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-47.info ...
+    dc: vac = 28.8e-06      (96 %), step = 600e-09         (2 %)
+dc-48: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-48.info ...
+    dc: vac = 29.4e-06      (98 %), step = 600e-09         (2 %)
+dc-49: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-49.info ...
+    dc: vac = 30e-06       (100 %), step = 600e-09         (2 %)
+dc-50: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dc-50.info ...
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 3.3 V
+I: I(V0:p) = 1.186 mA
+DC simulation time: CPU = 227.775 ms, elapsed = 116.549 ms.
+
+Notice from spectre at vac = 30e-06 during DC analysis `dc'.
+    The value of parameter 'vac' has been reset to the original value 0.1.
+
+Total time required for dc analysis `dc': CPU = 227.83 ms, elapsed = 116.572 ms.
+Time accumulated: CPU = 577.928 ms, elapsed = 654.396 ms.
+Peak resident memory used = 87.2 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[00:39:21.001160] cdslmd servers: /opt/Cadence/lic/Cadence.dat
+[00:39:21.016504] Feature usage summary:
+[00:39:21.188031]   Virtuoso_Spectre  
+
+
+Aggregate audit (12:39:21 AM, Tue Dec 26, 2023):
+Time used: CPU = 2.72 s, elapsed = 305 s (5m  5.1s), util. = 891e-03%.
+Time spent in licensing: elapsed = 268 ms.
+Peak memory used = 91.4 Mbytes.
+Simulation started at: 12:34:16 AM, Tue Dec 26, 2023, ended at: 12:39:21 AM, Tue Dec 26, 2023, with elapsed time (wall clock): 305 s (5m  5.1s).
+spectre completes with 0 errors, 7 warnings, and 2 notices.

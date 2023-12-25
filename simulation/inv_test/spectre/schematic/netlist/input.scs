@@ -1,0 +1,48 @@
+// Generated for: spectre
+// Generated on: Nov 29 14:41:35 2023
+// Design library name: mylib
+// Design cell name: inv_test
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
+parameters vin=0.9
+include "/home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/allModels"
+
+// Library name: mylib
+// Cell name: inverter
+// View name: schematic
+subckt inverter in out
+    PM0 (out in vdd! vdd!) p18 w=(1.95u) l=180n as=936f ad=936f ps=4.86u \
+        pd=4.86u m=(1)*(1)
+    NM1 (out in 0 0) n18 w=(600n) l=180n as=288f ad=288f ps=2.16u pd=2.16u \
+        m=(1)*(1)
+ends inverter
+// End of subcircuit definition.
+
+// Library name: mylib
+// Cell name: inv_test
+// View name: schematic
+I0 (net1 net2) inverter
+V0 (vdd! 0) vsource dc=1.8 type=dc
+V1 (net1 0) vsource dc=vin mag=1 type=pulse val0=0 val1=1.8 period=10n \
+        rise=100p fall=100p width=4.9n
+C0 (net2 0) capacitor c=1p
+simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+dc dc param=vin start=0 stop=1.8 step=0.001 oppoint=rawfile maxiters=150 \
+    maxsteps=10000 annotate=status
+ac ac start=10 stop=1000M annotate=status 
+tran tran stop=20n write="spectre.ic" writefinal="spectre.fc" \
+    annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

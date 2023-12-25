@@ -1,0 +1,6 @@
+HEADER
+"PSFversion" "1.00"
+"I3n I0n" "cascode_op"
+"V4n V1n V0n" "analogLib_vdc_spectre"
+"R0n" "analogLib_res_spectre"
+"C1n C0n" "analogLib_cap_spectre"

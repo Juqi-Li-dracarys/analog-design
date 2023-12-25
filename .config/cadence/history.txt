@@ -1,0 +1,4 @@
+Tue Dec 5 16:38:18 2023~@$^*/opt/Cadence/IC618/doc/anasimhelp/chap10.html#printwindow~@$^*Overview of Printing <sup><font size="1" color="#A9A9A9">[ IC6.18 ]</font></sup>
+Tue Dec 5 16:38:17 2023~@$^*/opt/Cadence/IC618/doc/anasimhelp/chap10.html#printwindow~@$^*printWindow <sup><font size="1" color="#A9A9A9">[ IC6.18 ]</font></sup>
+Mon Dec 4 17:41:25 2023~@$^*/opt/Cadence/IC618/doc/comphelp/chap7.html#annotationForm~@$^*Using Annotation Setup Form <sup><font size="1" color="#A9A9A9">[ IC6.18 ]</font></sup>
+Mon Dec 4 17:41:24 2023~@$^*/opt/Cadence/IC618/doc/comphelp/chap7.html#annotationForm~@$^*annotationForm <sup><font size="1" color="#A9A9A9">[ IC6.18 ]</font></sup>

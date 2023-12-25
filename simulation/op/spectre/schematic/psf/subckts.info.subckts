@@ -1,0 +1,256 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "20.1.0.298.isr9"
+"date" "11:30:51 AM, Mon Dec 4, 2023"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.00100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"rndifsab_ckt_rf" "subckt" (
+""
+""
+""
+)
+"rnposab_3t_ckt" "subckt" (
+""
+""
+""
+)
+"dnw33_ckt_rf" "subckt" (
+""
+""
+""
+)
+"diff_ind_3t_rf" "subckt" (
+""
+""
+""
+)
+"ind_rf" "subckt" (
+""
+""
+""
+)
+"rpposab_ckt_rf" "subckt" (
+""
+""
+""
+)
+"n33_ckt_rf" "subckt" (
+""
+""
+""
+)
+"rnpo_3t_ckt" "subckt" (
+""
+""
+""
+)
+"rnposab_ckt_rf" "subckt" (
+""
+""
+""
+)
+"rnposab_nstd_ckt" "subckt" (
+""
+""
+""
+)
+"pvar33_ckt" "subckt" (
+""
+""
+""
+)
+"pvar18_ckt" "subckt" (
+""
+""
+""
+)
+"pvar18w5ld5_ckt_rf" "subckt" (
+""
+""
+""
+)
+"rppo_ckt" "subckt" (
+""
+""
+""
+)
+"n18_ckt_rf" "subckt" (
+""
+""
+""
+)
+"rndifsab_ckt" "subckt" (
+""
+""
+""
+)
+"rpdifsab_ckt_rf" "subckt" (
+""
+""
+""
+)
+"rndifsab_nstd_ckt" "subckt" (
+""
+""
+""
+)
+"rnpo_ckt" "subckt" (
+""
+""
+""
+)
+"diff_ind_rf" "subckt" (
+""
+""
+""
+)
+"rpdif_ckt" "subckt" (
+""
+""
+""
+)
+"pvardio18_ckt_rf" "subckt" (
+""
+""
+""
+)
+"pvar18w10ld5_ckt_rf" "subckt" (
+""
+""
+""
+)
+"pvar18w5l1_ckt_rf" "subckt" (
+""
+""
+""
+)
+"rpposab_nstd_ckt" "subckt" (
+""
+""
+""
+)
+"rpposab_ckt" "subckt" (
+""
+""
+""
+)
+"rhrpo_3t_ckt" "subckt" (
+""
+""
+""
+)
+"rnposab_ckt" "subckt" (
+""
+""
+""
+)
+"rhrpo_ckt" "subckt" (
+""
+""
+""
+)
+"rnwsti_ckt" "subckt" (
+""
+""
+""
+)
+"rppo_3t_ckt" "subckt" (
+""
+""
+""
+)
+"p18_ckt_rf" "subckt" (
+""
+""
+""
+)
+"pvardio33_ckt_rf" "subckt" (
+""
+""
+""
+)
+"rpposab_nstd_3t_ckt" "subckt" (
+""
+""
+""
+)
+"p33_ckt_rf" "subckt" (
+""
+""
+""
+)
+"dnw18_ckt_rf" "subckt" (
+""
+""
+""
+)
+"pvar18w10l1_ckt_rf" "subckt" (
+""
+""
+""
+)
+"rndif_ckt" "subckt" (
+""
+""
+""
+)
+"rpdifsab_ckt" "subckt" (
+""
+""
+""
+)
+"rpposab_3t_ckt" "subckt" (
+""
+""
+""
+)
+"rnwaa_ckt" "subckt" (
+""
+""
+""
+)
+"rhrpo_ckt_rf" "subckt" (
+""
+""
+""
+)
+"rpdifsab_nstd_ckt" "subckt" (
+""
+""
+""
+)
+"rnposab_nstd_3t_ckt" "subckt" (
+""
+""
+""
+)
+"mim1_rf" "subckt" (
+""
+""
+""
+)
+"pvar33w10ld5_ckt_rf" "subckt" (
+""
+""
+""
+)
+"pvar33w10l1_ckt_rf" "subckt" (
+""
+""
+""
+)
+END

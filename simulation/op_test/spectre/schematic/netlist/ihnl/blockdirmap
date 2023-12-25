@@ -1,0 +1,4 @@
+CADENCE IHNL11142
+
+mylib cascode_op schematic cds0
+mylib op_test schematic cds1

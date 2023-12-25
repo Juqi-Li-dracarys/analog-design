@@ -1,0 +1,12 @@
+
+// Library name: mylib
+// Cell name: op_test
+// View name: schematic
+I3 (net04 net06 net07) cascode_op
+I0 (net04 net06 net7) cascode_op
+V4 (net04 net06) vsource dc=vac type=dc
+V1 (net06 0) vsource dc=vcom type=dc
+V0 (vdd! 0) vsource dc=3.3 type=dc
+R0 (net7 0) resistor r=500K
+C1 (net07 0) capacitor c=10p
+C0 (net7 0) capacitor c=10p

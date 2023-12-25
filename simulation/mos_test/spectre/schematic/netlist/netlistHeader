@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Dec 25 11:20:43 2023
+// Design library name: mylib
+// Design cell name: mos_test
+// Design view name: schematic
+simulator lang=spectre
+global 0

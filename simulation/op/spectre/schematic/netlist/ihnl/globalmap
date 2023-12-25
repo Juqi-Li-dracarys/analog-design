@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+mylib/op/schematic op
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+vgs vgs
+f f
+$endparam

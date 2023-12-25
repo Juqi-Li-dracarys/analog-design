@@ -1,0 +1,97 @@
+// Generated for: spectre
+// Generated on: Dec 26 00:34:13 2023
+// Design library name: mylib
+// Design cell name: op_test
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
+parameters vac=100m vcom=1.2
+include "/home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/allModels"
+
+// Library name: mylib
+// Cell name: cascode_op
+// View name: schematic
+subckt cascode_op vin\+ vin\- vout
+    M27 (vdd! net02 net063 0) n33 w=(5u) l=500n as=2.4p ad=2.4p ps=10.96u \
+        pd=10.96u m=(1)*(1)
+    M25 (net063 net037 0 0) n33 w=(5u) l=500n as=2.4p ad=2.4p ps=10.96u \
+        pd=10.96u m=(1)*(1)
+    M24 (net03 net063 net037 0) n33 w=(350n) l=350n as=211.4f ad=211.4f \
+        ps=1.88u pd=1.88u m=(1)*(1)
+    M26 (net02 net02 0 0) n33 w=(500n) l=10u as=240f ad=240f ps=1.96u \
+        pd=1.96u m=(1)*(1)
+    M20 (vout net037 0 0) n33 w=(62.5u) l=500n as=30p ad=30p ps=125.96u \
+        pd=125.96u m=(1)*(1)
+    M13 (net35 net13 0 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p ps=27.96u \
+        pd=27.96u m=(1)*(1)
+    M12 (net13 net14 net35 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p \
+        ps=27.96u pd=27.96u m=(1)*(1)
+    M11 (net9 net037 0 0) n33 w=(62.5u) l=500n as=30p ad=30p ps=125.96u \
+        pd=125.96u m=(1)*(1)
+    M10 (net34 net13 0 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p ps=27.96u \
+        pd=27.96u m=(1)*(1)
+    M9 (net047 net14 net34 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p \
+        ps=27.96u pd=27.96u m=(1)*(1)
+    M2 (net26 vin\+ net2 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p \
+        ps=27.96u pd=27.96u m=(1)*(1)
+    M1 (net24 vin\- net2 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p \
+        ps=27.96u pd=27.96u m=(1)*(1)
+    M0 (net2 net037 0 0) n33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
+        pd=100.96u m=(1)*(1)
+    M22 (net03 net03 vdd! vdd!) p33 w=(5u) l=500n as=2.4p ad=2.4p \
+        ps=10.96u pd=10.96u m=(1)*(1)
+    M21 (net063 net03 vdd! vdd!) p33 w=(5u) l=500n as=2.4p ad=2.4p \
+        ps=10.96u pd=10.96u m=(1)*(1)
+    M18 (0 net047 net029 vdd!) p33 w=(20.5u) l=500n as=9.84p ad=9.84p \
+        ps=41.96u pd=41.96u m=(1)*(1)
+    M19 (vout net029 vdd! vdd!) p33 w=(50u) l=500n as=24p ad=24p \
+        ps=100.96u pd=100.96u m=(1)*(1)
+    M17 (net029 net10 vdd! vdd!) p33 w=(50u) l=500n as=24p ad=24p \
+        ps=100.96u pd=100.96u m=(1)*(1)
+    M8 (net047 net9 net26 vdd!) p33 w=(50u) l=500n as=24p ad=24p \
+        ps=100.96u pd=100.96u m=(1)*(1)
+    M7 (net14 net9 net24 vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
+        pd=100.96u m=(1)*(1)
+    M6 (net10 net9 net36 vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
+        pd=100.96u m=(1)*(1)
+    M5 (net36 net10 vdd! vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
+        pd=100.96u m=(1)*(1)
+    M4 (net26 net10 vdd! vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
+        pd=100.96u m=(1)*(1)
+    M3 (net24 net10 vdd! vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
+        pd=100.96u m=(1)*(1)
+    R10 (vdd! net02) resistor r=95K
+    R8 (net037 0) resistor r=95K
+    R7 (net047 net21) resistor r=12K
+    R1 (net14 net13) resistor r=3.3K
+    R0 (net10 net9) resistor r=3.5K
+    C0 (vout net21) capacitor c=3p
+ends cascode_op
+// End of subcircuit definition.
+
+// Library name: mylib
+// Cell name: op_test
+// View name: schematic
+I3 (net04 net06 net07) cascode_op
+I0 (net04 net06 net7) cascode_op
+V4 (net04 net06) vsource dc=vac type=dc
+V1 (net06 0) vsource dc=vcom type=dc
+V0 (vdd! 0) vsource dc=3.3 type=dc
+R0 (net7 0) resistor r=500K
+C1 (net07 0) capacitor c=10p
+C0 (net7 0) capacitor c=10p
+simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+dc dc param=vac start=0 stop=30u oppoint=rawfile maxiters=150 \
+    maxsteps=10000 annotate=status
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

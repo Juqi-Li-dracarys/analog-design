@@ -1,0 +1,3 @@
+simulator lang=spectre
+include "n33.scs"
+include "p33.scs"

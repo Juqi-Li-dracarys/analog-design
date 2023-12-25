@@ -1,0 +1,6 @@
+    PM0 (out in vdd! vdd!) p18 w=(1.95u) l=180n as=936f ad=936f ps=4.86u \
+        pd=4.86u m=(1)*(1)
+    NM1 (out in 0 0) n18 w=(600n) l=180n as=288f ad=288f ps=2.16u pd=2.16u \
+        m=(1)*(1)
+ends inverter
+// End of subcircuit definition.
