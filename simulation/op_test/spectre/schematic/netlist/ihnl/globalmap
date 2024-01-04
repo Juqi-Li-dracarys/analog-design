@@ -8,7 +8,7 @@ gnd! 0
 vdd! vdd!
 $endnet
 $param
-vpulse vpulse
+W W
 vcom vcom
 vac vac
 $endparam

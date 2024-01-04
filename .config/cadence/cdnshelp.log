@@ -5,16 +5,13 @@ matchFamilyName("sans")
   Success: DejaVu Sans  (/usr/share/fonts/dejavu/DejaVuSans.ttf)
 matchFamilyName("DejaVu Serif") 
   Success: DejaVu Serif  (/usr/share/fonts/dejavu/DejaVuSerif.ttf)
-matchFamilyName("Arial") 
-  Success: Liberation Sans  (/usr/share/fonts/liberation/LiberationSans-Regular.ttf)
 matchFamilyName("Verdana") 
 matchFamilyName("DejaVu Sans") 
   Success: DejaVu Sans  (/usr/share/fonts/dejavu/DejaVuSans.ttf)
 matchFamilyName("Arial") 
   Success: Liberation Sans  (/usr/share/fonts/liberation/LiberationSans-Bold.ttf)
+matchFamilyName("Arial") 
+  Success: Liberation Sans  (/usr/share/fonts/liberation/LiberationSans-Regular.ttf)
 matchFamilyName("Verdana") 
-matchFamilyName("Helvetica") 
-matchFamilyName("Helvetica Neue") 
-matchFamilyName("Helvetica") 
-Server listening on port 6718
-::1:41964 connected!
+Server listening on port 6908
+::1:43940 connected!

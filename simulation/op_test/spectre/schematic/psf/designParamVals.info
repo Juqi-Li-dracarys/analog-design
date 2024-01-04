@@ -2,7 +2,7 @@ HEADER
 "PSFversion" "1.00"
 "simulator" "spectre"
 "version" "20.1.0.298.isr9"
-"date" "12:34:16 AM, Tue Dec 26, 2023"
+"date" "11:17:48 AM, Thur Jan 4, 2024"
 "design" "// Generated for: spectre"
 "analysis type" "info"
 "analysis name" "designParamVals"
@@ -277,8 +277,8 @@ VALUE
 2.700000000000000e+01
 2.700000000000000e+01
 0.000000000000000e+00
-1.000000000000000e-01
-1.200000000000000e+00
+1.000000000000000e+00
+1.600000000000000e+00
 0.000000000000000e+00
 0.000000000000000e+00
 0.000000000000000e+00

@@ -1,4 +1,4 @@
-(envOpts analysisOrder) ("dc" "ac" "tran" "noise")
+(envOpts analysisOrder) ("dc" "ac" "tran" "pz")
 (envOpts autoDisplay) t
 (envOpts bus_delimiter) ""
 (envOpts case_sensitive) "false"

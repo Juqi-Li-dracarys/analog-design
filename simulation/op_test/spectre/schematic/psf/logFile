@@ -1,11 +1,11 @@
 HEADER
 "PSFversion" "1.00"
 "Log Generator" "drlLog rev. 1.0"
-"Log Time Stamp" "Tue Dec 26 00:34:16 2023"
+"Log Time Stamp" "Thu Jan  4 11:17:48 2024"
 "psfversion" "1.1.0"
 "simulator" "spectre"
 "version" "20.1.0.298.isr9"
-"date" "12:34:16 AM, Tue Dec 26, 2023"
+"date" "11:17:48 AM, Thur Jan 4, 2024"
 "design" "// Generated for: spectre"
 "signalNameType" "spectre"
 "simMode" "Spectre"
@@ -49,8 +49,8 @@ VALUE
 "dc.dc"
 "PSF"
 ""
-("vac")
-"DC Analysis `dc': vac = (0 -> 30e-06)"
+("vcom")
+"DC Analysis `dc': vcom = (0 -> 3.3)"
 ) PROP(
 "data_type" "scalar"
 )
@@ -612,6 +612,50 @@ VALUE
 ""
 ()
 "Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"ac-ac" "analysisInst" (
+"ac"
+"ac.ac"
+"PSF"
+""
+("freq")
+"AC Analysis `ac': freq = (1 Hz -> 1 GHz)"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+"tran-tran" "analysisInst" (
+"tran"
+"tran.tran.tran"
+"PSF"
+""
+("time")
+"Transient Analysis `tran': time = (0 s -> 10 ms)"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+"finalTimeOP-info" "analysisInst" (
+"info"
+"finalTimeOP.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"pz-pz" "analysisInst" (
+"pz"
+"pz.pz"
+"PSF"
+""
+()
+"PZ Analysis `pz'"
 ) PROP(
 "data_type" "struct"
 )

@@ -5,44 +5,44 @@ Copyright (C) 1989-2021 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: stud30   Host: dell01   HostID: 89692DDB   PID: 45081
-Memory  available: 345.5338 GB  physical: 404.0957 GB
+User: stud30   Host: dell01   HostID: 89692DDB   PID: 97671
+Memory  available: 347.8689 GB  physical: 404.0957 GB
 Linux   : Red Hat Enterprise Linux Server release 7.9 (Maipo)
 CPU Type: Intel(R) Xeon(R) Gold 6246R CPU @ 3.40GHz
         Socket: Processors [Frequency] (Hyperthreaded Processor)
-        0:       0 [3182.7] ( 32 ),  2 [3977.7] ( 34 ),  4 [3967.8] ( 36 )
-                 6 [3614.8] ( 38 ),  8 [3734.1] ( 40 ), 10 [3999.3] ( 42 )
-                12 [3583.4] ( 44 ), 14 [3867.5] ( 46 ), 16 [3959.5] ( 48 )
-                18 [3920.3] ( 50 ), 20 [3677.0] ( 52 ), 22 [2854.2] ( 54 )
-                24 [3902.2] ( 56 ), 26 [3835.8] ( 58 ), 28 [3114.9] ( 60 )
-                30 [3866.5] ( 62 )
-        1:       1 [3931.7] ( 33 ),  3 [3451.5] ( 35 ),  5 [3318.9] ( 37 )
-                 7 [3487.8] ( 39 ),  9 [3610.8] ( 41 ), 11 [3539.5] ( 43 )
-                13 [3485.9] ( 45 ), 15 [3999.9] ( 47 ), 17 [3696.1] ( 49 )
-                19 [2628.2] ( 51 ), 21 [4094.6] ( 53 ), 23 [4085.9] ( 55 )
-                25 [1371.1] ( 57 ), 27 [3468.7] ( 59 ), 29 [2076.9] ( 61 )
-                31 [3827.7] ( 63 )
+        0:       0 [3869.4] ( 32 ),  2 [1473.2] ( 34 ),  4 [3813.2] ( 36 )
+                 6 [3601.1] ( 38 ),  8 [3803.0] ( 40 ), 10 [3700.3] ( 42 )
+                12 [3704.2] ( 44 ), 14 [3621.6] ( 46 ), 16 [3971.9] ( 48 )
+                18 [3684.5] ( 50 ), 20 [3543.6] ( 52 ), 22 [3556.9] ( 54 )
+                24 [3525.1] ( 56 ), 26 [3556.7] ( 58 ), 28 [3701.7] ( 60 )
+                30 [2794.9] ( 62 )
+        1:       1 [3999.9] ( 33 ),  3 [3991.2] ( 35 ),  5 [3999.9] ( 37 )
+                 7 [3999.7] ( 39 ),  9 [3999.9] ( 41 ), 11 [3999.9] ( 43 )
+                13 [3882.5] ( 45 ), 15 [3999.9] ( 47 ), 17 [3990.0] ( 49 )
+                19 [3993.3] ( 51 ), 21 [3819.2] ( 53 ), 23 [3990.6] ( 55 )
+                25 [3999.9] ( 57 ), 27 [3985.6] ( 59 ), 29 [3999.9] ( 61 )
+                31 [3993.1] ( 63 )
         
-System load averages (1min, 5min, 15min) : 0.0 %, 0.1 %, 0.2 %
+System load averages (1min, 5min, 15min) : 0.2 %, 0.2 %, 0.2 %
 Hyperthreading is enabled
 
 
-Simulating `input.scs' on dell01 at 12:34:16 AM, Tue Dec 26, 2023 (process id: 45081).
+Simulating `input.scs' on dell01 at 11:17:48 AM, Thur Jan 4, 2024 (process id: 97671).
 Current working directory: /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/netlist
 Environment variable:
     SPECTRE_DEFAULTS=-E
 Command line:
     /opt/Cadence/LIBERATE211/tools.lnx86/bin/spectre -64 input.scs  \
         +escchars +log ../psf/spectre.out +inter=mpsc  \
-        +mpssession=spectre2_3478_35 -format psfxl -raw ../psf  \
+        +mpssession=spectre3_71784_40 -format psfxl -raw ../psf  \
         +lqtimeout 900 -maxw 5 -maxn 5
-spectre pid = 45081
+spectre pid = 97671
 
 Licensing Information:
-[00:34:16.519537] Configured Lic search path (20.02-p002): /opt/Cadence/lic/Cadence.dat
+[11:17:48.519601] Configured Lic search path (20.02-p002): /opt/Cadence/lic/Cadence.dat
 
 Licensing Information:
-[00:34:16.093883] Periodic Lic check successful
+[11:17:48.111410] Periodic Lic check successful
 
 Loading /opt/Cadence/LIBERATE211/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
 Loading /opt/Cadence/LIBERATE211/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
@@ -72,9 +72,9 @@ Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1
 Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_spri_ind_spe.ckt
 Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_diff_ind_spe.ckt
 Reading file:  /home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/ms018_rf_v1p9_3T_diff_ind_spe.ckt
-Time for NDB Parsing: CPU = 193.838 ms, elapsed = 455.14 ms.
-Time accumulated: CPU = 237.684 ms, elapsed = 455.146 ms.
-Peak resident memory used = 74.6 Mbytes.
+Time for NDB Parsing: CPU = 195.265 ms, elapsed = 322.422 ms.
+Time accumulated: CPU = 238.837 ms, elapsed = 322.427 ms.
+Peak resident memory used = 76.2 Mbytes.
 
 
 Warning from spectre during circuit read-in.
@@ -83,23 +83,25 @@ Warning from spectre during circuit read-in.
     WARNING (SFE-2654): VerilogA module `polyres_hdl' override primitive/(verilogA module) `polyres_hdl'.
     WARNING (SFE-2654): VerilogA module `rint_hdl' override primitive/(verilogA module) `rint_hdl'.
 
-Time for Elaboration: CPU = 32.371 ms, elapsed = 16.2251 ms.
-Time accumulated: CPU = 270.258 ms, elapsed = 471.471 ms.
-Peak resident memory used = 81.8 Mbytes.
+Time for Elaboration: CPU = 31.877 ms, elapsed = 15.9769 ms.
+Time accumulated: CPU = 270.914 ms, elapsed = 338.502 ms.
+Peak resident memory used = 83.1 Mbytes.
 
 
 Warning from spectre during hierarchy flattening.
     WARNING (SPECTRE-17101): The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
 
 
-Time for EDB Visiting: CPU = 2.013 ms, elapsed = 1.01018 ms.
-Time accumulated: CPU = 272.455 ms, elapsed = 472.571 ms.
-Peak resident memory used = 82.7 Mbytes.
+Time for EDB Visiting: CPU = 1.62 ms, elapsed = 813.007 us.
+Time accumulated: CPU = 272.714 ms, elapsed = 339.404 ms.
+Peak resident memory used = 84 Mbytes.
 
 
 Warning from spectre during initial setup.
-    WARNING (CMI-2441): I0.M26: Instance length width or area does not fit the given lmax-lmin, wmax-wmin or areamax-areamin range for the model 'n33'.
-    WARNING (CMI-2441): I3.M26: Instance length width or area does not fit the given lmax-lmin, wmax-wmin or areamax-areamin range for the model 'n33'.
+    WARNING (CMI-2441): I4.M26: Instance length width or area does not fit the given lmax-lmin, wmax-wmin or areamax-areamin range for the model 'n33'.
+Notice from spectre during topology check.
+    No connections to node `net7'.
+    No DC path from node `net7' to ground, Gmin installed to provide path.
 
 
 Global user options:
@@ -125,30 +127,33 @@ Global user options:
 Scoped user options:
 
 Circuit inventory:
-              nodes 39
-            bsim3v3 48    
-          capacitor 4     
-           resistor 11    
+              nodes 22
+            bsim3v3 27    
+          capacitor 2     
+           resistor 4     
             vsource 3     
 
 Analysis and control statement inventory:
+                 ac 1     
                  dc 2     
-               info 7     
+               info 8     
+                 pz 1     
+               tran 1     
 
 Output statements:
              .probe 0     
            .measure 0     
                save 0     
 
-Time for parsing: CPU = 4.7 ms, elapsed = 2.49887 ms.
-Time accumulated: CPU = 277.325 ms, elapsed = 475.154 ms.
-Peak resident memory used = 84.2 Mbytes.
+Time for parsing: CPU = 4.519 ms, elapsed = 2.40588 ms.
+Time accumulated: CPU = 277.398 ms, elapsed = 341.892 ms.
+Peak resident memory used = 85.5 Mbytes.
 
 ~~~~~~~~~~~~~~~~~~~~~~
 Pre-Simulation Summary
 ~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~
-Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre2_3478_35, ).
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre3_71784_40, ).
 
 ******************
 DC Analysis `dcOp'
@@ -164,22 +169,26 @@ Important parameter values:
     tempeffects = all
     gmindc = 1 pS
 
+Notice from spectre during DC analysis `dcOp'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+
+
 Maximum value achieved for any signal of each quantity: 
 V: V(vdd!) = 3.3 V
-I: I(V0:p) = 1.2 mA
-Convergence achieved in 24 iterations.
-DC simulation time: CPU = 5.873 ms, elapsed = 2.9881 ms.
-Total time required for dc analysis `dcOp': CPU = 5.965 ms, elapsed = 3.03006 ms.
-Time accumulated: CPU = 345.379 ms, elapsed = 535.421 ms.
-Peak resident memory used = 86.2 Mbytes.
+I: I(V0:p) = 496.4 uA
+Convergence achieved in 29 iterations.
+DC simulation time: CPU = 5.095 ms, elapsed = 2.63906 ms.
+Total time required for dc analysis `dcOp': CPU = 5.188 ms, elapsed = 2.68102 ms.
+Time accumulated: CPU = 370.938 ms, elapsed = 428.056 ms.
+Peak resident memory used = 87.4 Mbytes.
 
 dcOpInfo: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dcOpInfo.info ...
 
-*************************************
-DC Analysis `dc': vac = (0 -> 30e-06)
-*************************************
+***********************************
+DC Analysis `dc': vcom = (0 -> 3.3)
+***********************************
 
 Opening the PSF file ../psf/dc.dc ...
 Important parameter values:
@@ -190,220 +199,468 @@ Important parameter values:
     tnom = 27 C
     tempeffects = all
     gmindc = 1 pS
+
+Notice from spectre at vcom = 0 during DC analysis `dc'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+
 dc-0: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-0.info ...
+
+Notice from spectre at vcom = 66e-03 during DC analysis `dc'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+
 dc-1: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-1.info ...
-    dc: vac = 1.2e-06        (4 %), step = 600e-09         (2 %)
+
+Notice from spectre at vcom = 132e-03 during DC analysis `dc'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+
+    dc: vcom = 132e-03        (4 %), step = 66e-03          (2 %)
 dc-2: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-2.info ...
-    dc: vac = 1.8e-06        (6 %), step = 600e-09         (2 %)
+
+Notice from spectre at vcom = 198e-03 during DC analysis `dc'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+
+    dc: vcom = 198e-03        (6 %), step = 66e-03          (2 %)
 dc-3: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-3.info ...
-    dc: vac = 2.4e-06        (8 %), step = 600e-09         (2 %)
+
+Notice from spectre at vcom = 264e-03 during DC analysis `dc'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+        Further occurrences of this notice will be suppressed.
+
+    dc: vcom = 264e-03        (8 %), step = 66e-03          (2 %)
 dc-4: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-4.info ...
-    dc: vac = 3e-06         (10 %), step = 600e-09         (2 %)
+    dc: vcom = 330e-03       (10 %), step = 66e-03          (2 %)
 dc-5: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-5.info ...
-    dc: vac = 3.6e-06       (12 %), step = 600e-09         (2 %)
+    dc: vcom = 396e-03       (12 %), step = 66e-03          (2 %)
 dc-6: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-6.info ...
-    dc: vac = 4.2e-06       (14 %), step = 600e-09         (2 %)
+    dc: vcom = 462e-03       (14 %), step = 66e-03          (2 %)
 dc-7: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-7.info ...
-    dc: vac = 4.8e-06       (16 %), step = 600e-09         (2 %)
+    dc: vcom = 528e-03       (16 %), step = 66e-03          (2 %)
 dc-8: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-8.info ...
-    dc: vac = 5.4e-06       (18 %), step = 600e-09         (2 %)
+    dc: vcom = 594e-03       (18 %), step = 66e-03          (2 %)
 dc-9: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-9.info ...
-    dc: vac = 6e-06         (20 %), step = 600e-09         (2 %)
+    dc: vcom = 660e-03       (20 %), step = 66e-03          (2 %)
 dc-10: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-10.info ...
-    dc: vac = 6.6e-06       (22 %), step = 600e-09         (2 %)
+    dc: vcom = 726e-03       (22 %), step = 66e-03          (2 %)
 dc-11: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-11.info ...
-    dc: vac = 7.2e-06       (24 %), step = 600e-09         (2 %)
+    dc: vcom = 792e-03       (24 %), step = 66e-03          (2 %)
 dc-12: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-12.info ...
-    dc: vac = 7.8e-06       (26 %), step = 600e-09         (2 %)
+    dc: vcom = 858e-03       (26 %), step = 66e-03          (2 %)
 dc-13: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-13.info ...
-    dc: vac = 8.4e-06       (28 %), step = 600e-09         (2 %)
+    dc: vcom = 924e-03       (28 %), step = 66e-03          (2 %)
 dc-14: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-14.info ...
-    dc: vac = 9e-06         (30 %), step = 600e-09         (2 %)
+    dc: vcom = 990e-03       (30 %), step = 66e-03          (2 %)
 dc-15: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-15.info ...
-    dc: vac = 9.6e-06       (32 %), step = 600e-09         (2 %)
+    dc: vcom = 1.056         (32 %), step = 66e-03          (2 %)
 dc-16: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-16.info ...
-    dc: vac = 10.2e-06      (34 %), step = 600e-09         (2 %)
+    dc: vcom = 1.122         (34 %), step = 66e-03          (2 %)
 dc-17: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-17.info ...
-    dc: vac = 10.8e-06      (36 %), step = 600e-09         (2 %)
+    dc: vcom = 1.188         (36 %), step = 66e-03          (2 %)
 dc-18: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-18.info ...
-    dc: vac = 11.4e-06      (38 %), step = 600e-09         (2 %)
+    dc: vcom = 1.254         (38 %), step = 66e-03          (2 %)
 dc-19: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-19.info ...
-    dc: vac = 12e-06        (40 %), step = 600e-09         (2 %)
+    dc: vcom = 1.32          (40 %), step = 66e-03          (2 %)
 dc-20: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-20.info ...
-    dc: vac = 12.6e-06      (42 %), step = 600e-09         (2 %)
+    dc: vcom = 1.386         (42 %), step = 66e-03          (2 %)
 dc-21: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-21.info ...
-    dc: vac = 13.2e-06      (44 %), step = 600e-09         (2 %)
+    dc: vcom = 1.452         (44 %), step = 66e-03          (2 %)
 dc-22: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-22.info ...
-    dc: vac = 13.8e-06      (46 %), step = 600e-09         (2 %)
+    dc: vcom = 1.518         (46 %), step = 66e-03          (2 %)
 dc-23: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-23.info ...
-    dc: vac = 14.4e-06      (48 %), step = 600e-09         (2 %)
+    dc: vcom = 1.584         (48 %), step = 66e-03          (2 %)
 dc-24: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-24.info ...
-    dc: vac = 15e-06        (50 %), step = 600e-09         (2 %)
+    dc: vcom = 1.65          (50 %), step = 66e-03          (2 %)
 dc-25: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-25.info ...
-    dc: vac = 15.6e-06      (52 %), step = 600e-09         (2 %)
+    dc: vcom = 1.716         (52 %), step = 66e-03          (2 %)
 dc-26: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-26.info ...
-    dc: vac = 16.2e-06      (54 %), step = 600e-09         (2 %)
+    dc: vcom = 1.782         (54 %), step = 66e-03          (2 %)
 dc-27: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-27.info ...
-    dc: vac = 16.8e-06      (56 %), step = 600e-09         (2 %)
+    dc: vcom = 1.848         (56 %), step = 66e-03          (2 %)
 dc-28: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-28.info ...
-    dc: vac = 17.4e-06      (58 %), step = 600e-09         (2 %)
+    dc: vcom = 1.914         (58 %), step = 66e-03          (2 %)
 dc-29: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-29.info ...
-    dc: vac = 18e-06        (60 %), step = 600e-09         (2 %)
+    dc: vcom = 1.98          (60 %), step = 66e-03          (2 %)
 dc-30: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-30.info ...
-    dc: vac = 18.6e-06      (62 %), step = 600e-09         (2 %)
+    dc: vcom = 2.046         (62 %), step = 66e-03          (2 %)
 dc-31: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-31.info ...
-    dc: vac = 19.2e-06      (64 %), step = 600e-09         (2 %)
+    dc: vcom = 2.112         (64 %), step = 66e-03          (2 %)
 dc-32: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-32.info ...
-    dc: vac = 19.8e-06      (66 %), step = 600e-09         (2 %)
+    dc: vcom = 2.178         (66 %), step = 66e-03          (2 %)
 dc-33: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-33.info ...
-    dc: vac = 20.4e-06      (68 %), step = 600e-09         (2 %)
+    dc: vcom = 2.244         (68 %), step = 66e-03          (2 %)
 dc-34: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-34.info ...
-    dc: vac = 21e-06        (70 %), step = 600e-09         (2 %)
+    dc: vcom = 2.31          (70 %), step = 66e-03          (2 %)
 dc-35: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-35.info ...
-    dc: vac = 21.6e-06      (72 %), step = 600e-09         (2 %)
+    dc: vcom = 2.376         (72 %), step = 66e-03          (2 %)
 dc-36: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-36.info ...
-    dc: vac = 22.2e-06      (74 %), step = 600e-09         (2 %)
+    dc: vcom = 2.442         (74 %), step = 66e-03          (2 %)
 dc-37: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-37.info ...
-    dc: vac = 22.8e-06      (76 %), step = 600e-09         (2 %)
+    dc: vcom = 2.508         (76 %), step = 66e-03          (2 %)
 dc-38: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-38.info ...
-    dc: vac = 23.4e-06      (78 %), step = 600e-09         (2 %)
+    dc: vcom = 2.574         (78 %), step = 66e-03          (2 %)
 dc-39: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-39.info ...
-    dc: vac = 24e-06        (80 %), step = 600e-09         (2 %)
+    dc: vcom = 2.64          (80 %), step = 66e-03          (2 %)
 dc-40: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-40.info ...
-    dc: vac = 24.6e-06      (82 %), step = 600e-09         (2 %)
+    dc: vcom = 2.706         (82 %), step = 66e-03          (2 %)
 dc-41: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-41.info ...
-    dc: vac = 25.2e-06      (84 %), step = 600e-09         (2 %)
+    dc: vcom = 2.772         (84 %), step = 66e-03          (2 %)
 dc-42: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-42.info ...
-    dc: vac = 25.8e-06      (86 %), step = 600e-09         (2 %)
+    dc: vcom = 2.838         (86 %), step = 66e-03          (2 %)
 dc-43: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-43.info ...
-    dc: vac = 26.4e-06      (88 %), step = 600e-09         (2 %)
+    dc: vcom = 2.904         (88 %), step = 66e-03          (2 %)
 dc-44: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-44.info ...
-    dc: vac = 27e-06        (90 %), step = 600e-09         (2 %)
+    dc: vcom = 2.97          (90 %), step = 66e-03          (2 %)
 dc-45: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-45.info ...
-    dc: vac = 27.6e-06      (92 %), step = 600e-09         (2 %)
+    dc: vcom = 3.036         (92 %), step = 66e-03          (2 %)
 dc-46: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-46.info ...
-    dc: vac = 28.2e-06      (94 %), step = 600e-09         (2 %)
+    dc: vcom = 3.102         (94 %), step = 66e-03          (2 %)
 dc-47: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-47.info ...
-    dc: vac = 28.8e-06      (96 %), step = 600e-09         (2 %)
+    dc: vcom = 3.168         (96 %), step = 66e-03          (2 %)
 dc-48: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-48.info ...
-    dc: vac = 29.4e-06      (98 %), step = 600e-09         (2 %)
+    dc: vcom = 3.234         (98 %), step = 66e-03          (2 %)
 dc-49: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-49.info ...
-    dc: vac = 30e-06       (100 %), step = 600e-09         (2 %)
+    dc: vcom = 3.3          (100 %), step = 66e-03          (2 %)
 dc-50: writing operating point information to rawfile.
 
 Opening the PSF file ../psf/dc-50.info ...
 
 Maximum value achieved for any signal of each quantity: 
+V: V(net06) = 3.3 V
+I: I(V0:p) = 388.3 uA
+DC simulation time: CPU = 177.58 ms, elapsed = 91.4011 ms.
+
+Notice from spectre at vcom = 3.3 during DC analysis `dc'.
+    The value of parameter 'vcom' has been reset to the original value 1.6.
+
+Total time required for dc analysis `dc': CPU = 177.627 ms, elapsed = 91.423 ms.
+Time accumulated: CPU = 552.457 ms, elapsed = 521.512 ms.
+Peak resident memory used = 88.4 Mbytes.
+
+
+Notice from spectre.
+    46 notices suppressed.
+
+
+****************************************
+AC Analysis `ac': freq = (1 Hz -> 1 GHz)
+****************************************
+
+Notice from spectre during DC analysis, during AC analysis `ac'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+
+DC simulation time: CPU = 1.617 ms, elapsed = 810.862 us.
+
+Opening the PSF file ../psf/ac.ac ...
+    ac: freq = 2.291 Hz       (4 %), step = 777.3 mHz       (2 %)
+    ac: freq = 3.467 Hz       (6 %), step = 1.177 Hz        (2 %)
+    ac: freq = 5.248 Hz       (8 %), step = 1.781 Hz        (2 %)
+    ac: freq = 7.943 Hz      (10 %), step = 2.695 Hz        (2 %)
+    ac: freq = 12.02 Hz      (12 %), step = 4.079 Hz        (2 %)
+    ac: freq = 18.2 Hz       (14 %), step = 6.174 Hz        (2 %)
+    ac: freq = 27.54 Hz      (16 %), step = 9.345 Hz        (2 %)
+    ac: freq = 41.69 Hz      (18 %), step = 14.14 Hz        (2 %)
+    ac: freq = 63.1 Hz       (20 %), step = 21.41 Hz        (2 %)
+    ac: freq = 95.5 Hz       (22 %), step = 32.4 Hz         (2 %)
+    ac: freq = 144.5 Hz      (24 %), step = 49.04 Hz        (2 %)
+    ac: freq = 218.8 Hz      (26 %), step = 74.23 Hz        (2 %)
+    ac: freq = 331.1 Hz      (28 %), step = 112.4 Hz        (2 %)
+    ac: freq = 501.2 Hz      (30 %), step = 170.1 Hz        (2 %)
+    ac: freq = 758.6 Hz      (32 %), step = 257.4 Hz        (2 %)
+    ac: freq = 1.148 kHz     (34 %), step = 389.6 Hz        (2 %)
+    ac: freq = 1.738 kHz     (36 %), step = 589.6 Hz        (2 %)
+    ac: freq = 2.63 kHz      (38 %), step = 892.5 Hz        (2 %)
+    ac: freq = 3.981 kHz     (40 %), step = 1.351 kHz       (2 %)
+    ac: freq = 6.026 kHz     (42 %), step = 2.045 kHz       (2 %)
+    ac: freq = 9.12 kHz      (44 %), step = 3.095 kHz       (2 %)
+    ac: freq = 13.8 kHz      (46 %), step = 4.684 kHz       (2 %)
+    ac: freq = 20.89 kHz     (48 %), step = 7.089 kHz       (2 %)
+    ac: freq = 31.62 kHz     (50 %), step = 10.73 kHz       (2 %)
+    ac: freq = 47.86 kHz     (52 %), step = 16.24 kHz       (2 %)
+    ac: freq = 72.44 kHz     (54 %), step = 24.58 kHz       (2 %)
+    ac: freq = 109.6 kHz     (56 %), step = 37.2 kHz        (2 %)
+    ac: freq = 166 kHz       (58 %), step = 56.31 kHz       (2 %)
+    ac: freq = 251.2 kHz     (60 %), step = 85.23 kHz       (2 %)
+    ac: freq = 380.2 kHz     (62 %), step = 129 kHz         (2 %)
+    ac: freq = 575.4 kHz     (64 %), step = 195.3 kHz       (2 %)
+    ac: freq = 871 kHz       (66 %), step = 295.5 kHz       (2 %)
+    ac: freq = 1.318 MHz     (68 %), step = 447.3 kHz       (2 %)
+    ac: freq = 1.995 MHz     (70 %), step = 677 kHz         (2 %)
+    ac: freq = 3.02 MHz      (72 %), step = 1.025 MHz       (2 %)
+    ac: freq = 4.571 MHz     (74 %), step = 1.551 MHz       (2 %)
+    ac: freq = 6.918 MHz     (76 %), step = 2.347 MHz       (2 %)
+    ac: freq = 10.47 MHz     (78 %), step = 3.553 MHz       (2 %)
+    ac: freq = 15.85 MHz     (80 %), step = 5.378 MHz       (2 %)
+    ac: freq = 23.99 MHz     (82 %), step = 8.139 MHz       (2 %)
+    ac: freq = 36.31 MHz     (84 %), step = 12.32 MHz       (2 %)
+    ac: freq = 54.95 MHz     (86 %), step = 18.65 MHz       (2 %)
+    ac: freq = 83.18 MHz     (88 %), step = 28.22 MHz       (2 %)
+    ac: freq = 125.9 MHz     (90 %), step = 42.72 MHz       (2 %)
+    ac: freq = 190.5 MHz     (92 %), step = 64.65 MHz       (2 %)
+    ac: freq = 288.4 MHz     (94 %), step = 97.86 MHz       (2 %)
+    ac: freq = 436.5 MHz     (96 %), step = 148.1 MHz       (2 %)
+    ac: freq = 660.7 MHz     (98 %), step = 224.2 MHz       (2 %)
+    ac: freq = 1 GHz        (100 %), step = 339.3 MHz       (2 %)
+Accumulated DC solution time =            0 s.
+Intrinsic ac analysis time =              0 s.
+Total time required for ac analysis `ac': CPU = 6.811 ms, elapsed = 3.45182 ms.
+Time accumulated: CPU = 559.682 ms, elapsed = 525.171 ms.
+Peak resident memory used = 88.5 Mbytes.
+
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 10 ms)
+************************************************
+DC simulation time: CPU = 492 us, elapsed = 247.955 us.
+
+Opening the PSFXL file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 10 ms
+    step = 10 us
+    maxstep = 200 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   3       (current)
+                 save   22      (voltage)
+
+    tran: time = 251.3 us    (2.51 %), step = 29.36 us     (294 m%)
+    tran: time = 808.9 us    (8.09 %), step = 60.07 us     (601 m%)
+    tran: time = 1.251 ms    (12.5 %), step = 46.22 us     (462 m%)
+    tran: time = 1.776 ms    (17.8 %), step = 39.32 us     (393 m%)
+    tran: time = 2.293 ms    (22.9 %), step = 53.15 us     (532 m%)
+    tran: time = 2.766 ms    (27.7 %), step = 23.62 us     (236 m%)
+    tran: time = 3.262 ms    (32.6 %), step = 54.17 us     (542 m%)
+    tran: time = 3.768 ms    (37.7 %), step = 26.41 us     (264 m%)
+    tran: time = 4.254 ms    (42.5 %), step = 29.77 us     (298 m%)
+    tran: time = 4.757 ms    (47.6 %), step = 22.8 us      (228 m%)
+    tran: time = 5.306 ms    (53.1 %), step = 58.73 us     (587 m%)
+    tran: time = 5.761 ms    (57.6 %), step = 25.14 us     (251 m%)
+    tran: time = 6.263 ms    (62.6 %), step = 55.57 us     (556 m%)
+    tran: time = 6.762 ms    (67.6 %), step = 24.1 us      (241 m%)
+    tran: time = 7.262 ms    (72.6 %), step = 55.08 us     (551 m%)
+    tran: time = 7.773 ms    (77.7 %), step = 31.77 us     (318 m%)
+
+Notice from spectre at time = 7.81536 ms during transient analysis `tran'.
+    Found trapezoidal ringing on node I4.M7:int_d.
+
+    tran: time = 8.273 ms    (82.7 %), step = 50.53 us     (505 m%)
+    tran: time = 8.76 ms     (87.6 %), step = 42.66 us     (427 m%)
+    tran: time = 9.287 ms    (92.9 %), step = 56.97 us     (570 m%)
+    tran: time = 9.759 ms    (97.6 %), step = 24.21 us     (242 m%)
+Number of accepted tran steps =             282
+
+Notice from spectre during transient analysis `tran'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+Maximum value achieved for any signal of each quantity: 
 V: V(vdd!) = 3.3 V
-I: I(V0:p) = 1.186 mA
-DC simulation time: CPU = 227.775 ms, elapsed = 116.549 ms.
+I: I(V0:p) = 497 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
 
-Notice from spectre at vac = 30e-06 during DC analysis `dc'.
-    The value of parameter 'vac' has been reset to the original value 0.1.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Total time required for dc analysis `dc': CPU = 227.83 ms, elapsed = 116.572 ms.
-Time accumulated: CPU = 577.928 ms, elapsed = 654.396 ms.
-Peak resident memory used = 87.2 Mbytes.
+
+During simulation, the CPU load for active processors is :
+         4 (23.4 %)      5 (2.0 %)       8 (2.1 %)      10 (10.2 %)
+        14 (4.1 %)      26 (2.0 %)      34 (39.6 %)     35 (64.6 %)
+        36 (2.0 %)      44 (6.2 %)      
+        Total: 156.4%
+Initial condition solution time: CPU = 544 us, elapsed = 273.943 us.
+Intrinsic tran analysis time:    CPU = 81.128 ms, elapsed = 40.7069 ms.
+Total time required for tran analysis `tran': CPU = 83.404 ms, elapsed = 41.8458 ms.
+Time accumulated: CPU = 645.424 ms, elapsed = 568.19 ms.
+Peak resident memory used = 90.1 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+
+****************
+PZ Analysis `pz'
+****************
+
+Warning from spectre during PZ analysis `pz'.
+    WARNING: BSIM3v3 MOS Transistor - frequency dependent components are present in the circuit, approximated as AC equivalents at 1.000000e+00Hz for pz analysis.
+Notice from spectre during DC analysis, during PZ analysis `pz'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+
+DC simulation time: CPU = 1.772 ms, elapsed = 889.063 us.
+DC simulation time: CPU = 203 us, elapsed = 101.805 us.
+                      Poles (Hz)
+
+           Real                       Imaginary                 Qfactor
+
+   1   -1.59719e+06                  0.00000e+00              5.00000e-01 
+   2   -7.42530e+06              +/- 6.36668e+05              5.01835e-01 
+   3   -5.03583e+07              +/- 8.24738e+07              9.59453e-01 
+   4   -1.13047e+08                  0.00000e+00              5.00000e-01 
+   5    7.02675e+06              +/- 1.17381e+08  **RHP       -8.36738e+00
+   6   -1.45954e+08                  0.00000e+00              5.00000e-01 
+   7   -4.78235e+08              +/- 9.50988e+07              5.09790e-01 
+   8   -5.95999e+08                  0.00000e+00              5.00000e-01 
+   9   -8.25582e+08                  0.00000e+00              5.00000e-01 
+  10   -1.18062e+09                  0.00000e+00              5.00000e-01 
+  11   -1.27909e+09              +/- 1.07003e+09              6.51888e-01 
+  12   -2.18926e+09                  0.00000e+00              5.00000e-01 
+  13   -2.25991e+09                  0.00000e+00              5.00000e-01 
+  14   -8.62011e+11                  0.00000e+00              5.00000e-01 
+  15   -9.86204e+11                  0.00000e+00              5.00000e-01 
+
+                      Zeros (Hz)
+                      at V(net7,0)/V2
+
+           Real                       Imaginary                 Qfactor
+
+   1   -8.69213e+03                  0.00000e+00              5.00000e-01 
+   2   -1.28257e+06                  0.00000e+00              5.00000e-01 
+   3   -7.41659e+06                  0.00000e+00              5.00000e-01 
+   4   -9.06467e+06                  0.00000e+00              5.00000e-01 
+   5   -1.12777e+08                  0.00000e+00              5.00000e-01 
+   6    6.07388e+06              +/- 1.16488e+08              -9.60225e+00
+   7   -1.34599e+08                  0.00000e+00              5.00000e-01 
+   8   -3.74275e+08              +/- 4.44378e+08              7.76160e-01 
+   9   -6.46252e+08                  0.00000e+00              5.00000e-01 
+  10   -8.21909e+08                  0.00000e+00              5.00000e-01 
+  11   -9.89789e+08                  0.00000e+00              5.00000e-01 
+  12    1.63470e+09                  0.00000e+00              -5.00000e-01
+  13   -1.73039e+09              +/- 5.68547e+08              5.26297e-01 
+  14   -8.47784e+08              +/- 1.69542e+09              1.11796e+00 
+  15   -2.29340e+09                  0.00000e+00              5.00000e-01 
+  16   -8.61565e+11                  0.00000e+00              5.00000e-01 
+  17   -9.92352e+11                  0.00000e+00              5.00000e-01 
+
+Constant factor =  2.71773e-02
+
+DC gain =  5.87055e+05
+
+Accumulated DC solution time =            -78.278 ms.
+Intrinsic pz analysis time =              138.557 ms.
+Total time required for pz analysis `pz': CPU = 18.34 ms, elapsed = 9.19199 ms.
+Time accumulated: CPU = 667.051 ms, elapsed = 579.112 ms.
+Peak resident memory used = 96.2 Mbytes.
 
 modelParameter: writing model parameter values to rawfile.
 
@@ -425,14 +682,14 @@ subckts: writing subcircuits to rawfile.
 Opening the PSFASCII file ../psf/subckts.info.subckts ...
 Licensing Information:
 Lic Summary:
-[00:39:21.001160] cdslmd servers: /opt/Cadence/lic/Cadence.dat
-[00:39:21.016504] Feature usage summary:
-[00:39:21.188031]   Virtuoso_Spectre  
+[12:55:56.001232] cdslmd servers: /opt/Cadence/lic/Cadence.dat
+[12:55:56.016576] Feature usage summary:
+[12:55:56.188103]   Virtuoso_Spectre  
 
 
-Aggregate audit (12:39:21 AM, Tue Dec 26, 2023):
-Time used: CPU = 2.72 s, elapsed = 305 s (5m  5.1s), util. = 891e-03%.
-Time spent in licensing: elapsed = 268 ms.
-Peak memory used = 91.4 Mbytes.
-Simulation started at: 12:34:16 AM, Tue Dec 26, 2023, ended at: 12:39:21 AM, Tue Dec 26, 2023, with elapsed time (wall clock): 305 s (5m  5.1s).
-spectre completes with 0 errors, 7 warnings, and 2 notices.
+Aggregate audit (12:55:56 PM, Thur Jan 4, 2024):
+Time used: CPU = 3.08 s, elapsed = 5.89 ks (1h 38m 8s), util. = 52.3e-03%.
+Time spent in licensing: elapsed = 133 ms.
+Peak memory used = 98.1 Mbytes.
+Simulation started at: 11:17:48 AM, Thur Jan 4, 2024, ended at: 12:55:56 PM, Thur Jan 4, 2024, with elapsed time (wall clock): 5.89 ks (1h 38m 8s).
+spectre completes with 0 errors, 7 warnings, and 15 notices.

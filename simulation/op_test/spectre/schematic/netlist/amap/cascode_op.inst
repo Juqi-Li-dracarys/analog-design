@@ -1,8 +1,8 @@
 HEADER
 "PSFversion" "1.00"
-"M27n M25n M24n M26n M20n M13n M12n M11n M10n M9n M2n M1n M0n" "smic18mmrf_n33_spectre"
-"M22n M21n M18n M19n M17n M8n M7n M6n M5n M4n M3n" "smic18mmrf_p33_spectre"
-"R10n R8n R7n R1n R0n" "analogLib_res_spectre"
+"M20n M27n M25n M24n M26n M13n M12n M11n M10n M9n M2n M1n M0n" "smic18mmrf_n33_spectre"
+"M32n M22n M21n M18n M19n M30n M28n M17n M8n M7n M6n M5n M4n M3n" "smic18mmrf_p33_spectre"
+"R10n R8n R7n R0n" "analogLib_res_spectre"
 "C0n" "analogLib_cap_spectre"
 "vin+v" ":1v"
 "vin-v" ":2v"

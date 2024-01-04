@@ -1,5 +1,5 @@
-\# Program start time:     UTC 2023.12.25 12:15:42.517
-\# Local time: CST (UTC+08:00) 2023.12.25 20:15:42.517
+\# Program start time:     UTC 2024.01.04 00:43:32.310
+\# Local time: CST (UTC+08:00) 2024.01.04 08:43:32.310
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 10/01/2018 20:02 (ip-172-18-22-57) $
 \o Hierarchy:		/opt/Cadence/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.83  (64-bit addresses)
@@ -8,7 +8,7 @@
 \# Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	localhost:12.0 (1536x864)
+\# X display name (WxH):	localhost:11.0 (1536x864)
 \# Available geometry:			TL(0:0) BR(1535:863)
 \# X server:			Colin Harrison
 \# Depth of Visual (Root):	24 (24)
@@ -18,19 +18,19 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        491 MB
-\# Available memory:	    336,321 MB
+\# Initial sbrk value:	        494 MB
+\# Available memory:	    339,397 MB
 \# System memory:	    418,144 MB
-\# Maximum memory size:	    418,015 MB
-\# Max mem available:	    336,684 MB
-\# Initial memory used:	        362 MB
-\#        process size:	      1,588 MB
+\# Maximum memory size:	    418,004 MB
+\# Max mem available:	    339,751 MB
+\# Initial memory used:	        354 MB
+\#        process size:	      1,580 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 64.00/64.00
 \# Qt version:		5.9.1
 \# Window Manager:	other
 \# User Name:		stud30
 \o Working Directory:	dell01:/home/vlsidesign/stud30
-\# Process Id:		291807
+\# Process Id:		65754
 \o 
 \o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
@@ -44,10 +44,1843 @@
 \o Use/reproduction/disclosure is subject to restriction
 \o set forth at FAR 1252.227-19 or its equivalent.
 \w Qt Warning: QXcbConnection: XCB error: 170 (Unknown), sequence: 172, resource id: 90, major code: 146 (Unknown), minor code: 20
-\# Available memory:        336,515 MB at UTC 2023.12.25 14:27:19.025
-\# Memory report: Maximum memory size now 336,906 MB at UTC 2023.12.25 14:27:19.026
-\# Thread usage report: 65 active threads, active load 1.00 at UTC 2023.12.25 14:27:19.026
-\e IO Error 0 (Success) on Display "localhost:12.0"
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading ams.cxt 
+\o Loading cli.cxt 
+\o Loading cle.cxt 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
+\o Successfully checked out 'Virtuoso_MixedSignalOpt_Layout' license.
+\w *WARNING* ddUpdateLibList: It appears that you are trying to run an OA executable on CDB data. Library 'smic18' contains file '/home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/smic18/prop.xx' which is CDB data. If this is an OA library, this file needs to be removed. If this is a CDB library, use cdb2oa to convert your data from CDB to OA and then try again.
+\o END OF SITE CUSTOMIZATION
+\o //
+\o //  Calibre Skill Interface * (v2022.2_38.20) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\p > 
+\o Loading pe.cxt 
+\a _treeSetOpcGUI(t)
+\r t
+\o libManager Qt Warning: QXcbConnection: XCB error: 1 (BadRequest), sequence: 170, resource id: 90, major code: 146 (Unknown), minor code: 31
+\o libManager Qt Warning: failed to get the primary output of the screen
+\o libManager Qt Warning: QXcbConnection: XCB error: 1 (BadRequest), sequence: 170, resource id: 90, major code: 146 (Unknown), minor code: 31
+\o libManager Qt Warning: failed to get the primary output of the screen
+\# Memory report: using         466 MB, process size 1,705 MB at UTC 2024.01.04 00:43:39.264
+\a hiResizeWindow(window(1) list(0:40 1536:841))
+\r t
+\o libManager Qt Warning: QXcbConnection: XCB error: 170 (Unknown), sequence: 172, resource id: 90, major code: 146 (Unknown), minor code: 20
+\o libManager Qt Warning: QXcbConnection: XCB error: 170 (Unknown), sequence: 172, resource id: 90, major code: 146 (Unknown), minor code: 20
+\a deOpen()
+\# Available memory:        339,261 MB at UTC 2024.01.04 00:43:42.073
+\# Memory report: Maximum memory size now 339,727 MB at UTC 2024.01.04 00:43:42.073
+\# Thread usage report: 65 active threads, active load 1.00 at UTC 2024.01.04 00:43:42.073
+\w *WARNING* ddUpdateLibList: It appears that you are trying to run an OA executable on CDB data. Library 'smic18' contains file '/home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/smic18/prop.xx' which is CDB data. If this is an OA library, this file needs to be removed. If this is a CDB library, use cdb2oa to convert your data from CDB to OA and then try again.
+\p > 
+\a hiiSetCurrentForm('deOpenForm)
+\r t
+\a deOpenForm->deLibName->value="mylib"
+\r "mylib"
+\a deOpenForm->deCellChoice->value= '( "op_test" )
+\r ("op_test")
+\a _deCellChoiceCB()
+\r "schematic"
+\a hiFormDone(deOpenForm)
+\r t
+\w *WARNING* ddUpdateLibList: It appears that you are trying to run an OA executable on CDB data. Library 'smic18' contains file '/home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/smic18/prop.xx' which is CDB data. If this is an OA library, this file needs to be removed. If this is a CDB library, use cdb2oa to convert your data from CDB to OA and then try again.
+\w *WARNING* (TECH-2000152): The attached technology library 'smic18' for design library 'mylib' was not found.
+\w       Attach an existing technology library to the design library or define the missing technology library 'smic18' in your cds.lib file.
+\w       The default technology file will be used.
+\o Loading schematic.cxt 
+\o Loading ddui.cxt 
+\o Loading vb.cxt 
+\o Loading nt.cxt 
+\o Loading oi.cxt 
+\o Loading see.cxt 
+\o Loading treeAssistant.cxt 
+\o Loading asst.cxt 
+\o Loading le.cxt 
+\o Loading drdEdit.cxt 
+\o Loading smic18mmrf/libInit.il ...
+\o 	Loading smic18mmrf/loadCxt.ile ... done!
+\o 	Loading context 'smic18mmrf' from library 'smic18mmrf' ... done!
+\o 	Loading context 'pdkUtils' from library 'smic18mmrf' ... done!
+\o 	Loading smic18mmrf/display.drf ... done!
+\o Loaded smic18mmrf/libInit.il successfully!
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "t")
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant1) "Objects/Instances")
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "nil")
+\r t
+\o Loading hsm.cxt 
+\o Loading lx.cxt 
+\o Loading lce.cxt 
+\o Loading rte.cxt 
+\o Loading oasis.cxt 
+\o Loading simui.cxt 
+\r window:2
+\a when(dwindow('oiAssistant1) hiMapWindow(dwindow('oiAssistant1)))
+\r t
+\a when(dwindow('treeAssistant1) hiMapWindow(dwindow('treeAssistant1)))
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "t")
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "nil")
+\r t
+\a hiResizeWindow(swindow(1) list(0:40 1536:841))
+\r t
+\a hiZoomInAtMouse()
+\i 0.5:-0.3125
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a schSingleSelectPt()
+\i 1.6875:0.375
+\r t
+\a _deUpdateMenu('schematicTools 2)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\o Loading vdsil.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o Loading te.cxt 
+\o Loading schHDL.cxt 
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\o Loading cdf.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         625 MB, process size 1,942 MB at UTC 2024.01.04 00:44:23.426
+\r t
+\a hiResizeWindow(swindow(2) list(422:113 1114:588))
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "t")
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "nil")
+\r t
+\a sevLoadState('sevSession1)
+\p > 
+\a hiiSetCurrentForm('sevLoadForm1)
+\r t
+\a sevLoadForm1->name->value= '( "state6" )
+\r ("state6")
+\a hiFormDone(sevLoadForm1)
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\r t
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/psf.
+\o generate netlist...
+\o Loading genldCpf.cxt 
+\o Loading cpf.cxt 
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting Jan  4 08:44:47 2024
+\o End netlisting Jan  4 08:44:47 2024
+\o Loading monte.cxt 
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   32
+\o 
+\o 	Elapsed time:          1.0s (32.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o Loading paraplot.cxt 
+\r t
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a rdbLoadResults("sevSession1" "./simulation/op_test/spectre/schematic/psf")
+\r t
+\# Memory report: using       5,290 MB, process size 6,629 MB at UTC 2024.01.04 00:44:50.468
+\a hiResizeWindow(swindow(3) list(0:64 1000:864))
+\r t
+\a hiResizeWindow(swindow(2) list(0:389 692:864))
+\r t
+\a hiResizeWindow(window(4) list(0:164 515:864))
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a schSingleSelectPt()
+\i 1.6875:0.1875
+\r t
+\a _treeRaiseContextMenu()
+\r nil
+\a hiPopupDown(_cxtMenu)
+\r t
+\a _treeOpenInst(_treeFromCurrentWindow() "" "")
+\r t
+\a _treeAssistantOpen( list( nil 'hierarchy "{mylib op_test schematic}/I4(schematic)") "current tab" "read" "mylib" "cascode_op" "schematic" 'nil)
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "t")
+\r t
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "nil")
+\r t
+\a _treeRaiseContextMenu()
+\r nil
+\a hiPopupDown(_cxtMenu)
+\r t
+\a _treeOpenInst(_treeFromCurrentWindow() "" "")
+\r t
+\a _treeAssistantOpen( list( nil 'hierarchy "{mylib op_test schematic}/I4(schematic)") "current tab" "read" "mylib" "cascode_op" "schematic" 'nil)
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "t")
+\r t
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "nil")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) " Inst")
+\r t
+\a _treeRaiseContextMenu()
+\r nil
+\a hiPopupDown(_cxtMenu)
+\r t
+\a _treeOpenInst(_treeFromCurrentWindow() "" "")
+\r t
+\a _treeAssistantOpen( list( nil 'hierarchy "{mylib op_test schematic}") "current tab" "read" "mylib" "op_test" "schematic" 'nil)
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "t")
+\r t
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "nil")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) "/I4(schematic) Inst")
+\r t
+\a _treeRaiseContextMenu()
+\r nil
+\a hiPopupDown(_cxtMenu)
+\r t
+\a _treeOpenCell(_treeFromCurrentWindow() "" "")
+\r t
+\a _treeAssistantOpen( list( nil 'hierarchy "{mylib op_test schematic}/I4(schematic)") "current tab" "read" "mylib" "cascode_op" "schematic" 't)
+\p > 
+\a hiiSetCurrentForm('_treeAssistantOpenForm)
+\r t
+\a _treeAssistantOpenForm->mode->value="edit"
+\r "edit"
+\a hiFormDone(_treeAssistantOpenForm)
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "t")
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant1) "Objects/Instances")
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "nil")
+\r t
+\r t
+\r t
+\a hiCloseWindow(swindow(4))
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "t")
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant1) "8" "nil")
+\r t
+\a _hiSetCurrentWinNum(6)
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant1))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant1) " Inst")
+\r t
+\a deOpen()
+\w *WARNING* ddUpdateLibList: It appears that you are trying to run an OA executable on CDB data. Library 'smic18' contains file '/home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/smic18/prop.xx' which is CDB data. If this is an OA library, this file needs to be removed. If this is a CDB library, use cdb2oa to convert your data from CDB to OA and then try again.
+\p > 
+\a hiiSetCurrentForm('deOpenForm)
+\r t
+\a hiFormDone(deOpenForm)
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant2) "8" "t")
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant2) "Objects/Instances")
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant2) "8" "nil")
+\r t
+\r window:8
+\a when(dwindow('oiAssistant2) hiMapWindow(dwindow('oiAssistant2)))
+\r t
+\a when(dwindow('treeAssistant2) hiMapWindow(dwindow('treeAssistant2)))
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant2) "8" "t")
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant2) "8" "nil")
+\r t
+\a hiResizeWindow(window(1) list(0:63 1536:864))
+\r t
+\a schSingleSelectPt()
+\i 1.75:0.25
+\r t
+\a schSingleSelectPt()
+\i 0:1.0625
+\r nil
+\a _treeNavSelectionClear(dwindow('treeAssistant2))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant2) "/I4(schematic) Inst")
+\r t
+\a _treeRaiseContextMenu()
+\r nil
+\a hiPopupDown(_cxtMenu)
+\r t
+\a _treeOpenInst(_treeFromCurrentWindow() "" "")
+\r t
+\a _treeAssistantOpen( list( nil 'hierarchy "{mylib op_test schematic}/I4(schematic)") "current tab" "read" "mylib" "cascode_op" "schematic" 'nil)
+\a _treeNavToggleColumn(dwindow('treeAssistant2) "8" "t")
+\r t
+\r t
+\a _treeNavToggleColumn(dwindow('treeAssistant2) "8" "nil")
+\r t
+\a hiZoomInAtMouse()
+\i 6.0625:-0.5
+\r t
+\a hiZoomInAtMouse()
+\i 6.0625:-0.5
+\r t
+\a hiZoomInAtMouse()
+\i 6.0625:-0.5
+\r t
+\a hiZoomInAtMouse()
+\i 6.0625:-0.5
+\r t
+\a hiZoomInAtMouse()
+\i 6.0625:-0.5
+\r t
+\a hiZoomInAtMouse()
+\i 6.0625:-0.5
+\r t
+\a hiZoomInAtMouse()
+\i 6.0625:-0.5
+\r t
+\a hiZoomOutAtMouse()
+\i 6.0625:-0.5
+\r t
+\a hiZoomOutAtMouse()
+\i 6.0625:-0.5
+\r t
+\a hiZoomOutAtMouse()
+\i 6.0625:-0.5
+\r t
+\a hiZoomOutAtMouse()
+\i 6:-0.5
+\r t
+\a hiZoomOutAtMouse()
+\i 6.0625:-0.5
+\r t
+\a schSingleSelectPt()
+\i 5.3125:-0.375
+\r t
+\a schSingleSelectPt()
+\i 5.75:-0.3125
+\r t
+\a schSingleSelectPt()
+\i 5.9375:-0.375
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 6.3125:-0.75
+\r t
+\a mouseAddPt(t)
+\i 6.14375:-0.73125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiCloseWindow(swindow(1))
+\o Loading cph.cxt 
+\r t
+\a hiResizeWindow(swindow(5) list(0:40 1536:841))
+\r t
+\a hiResizeWindow(swindow(2) list(422:113 1114:588))
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan  4 08:46:46 2024
+\o ERROR (OSSHNL-109): The cellview 'mylib/cascode_op/schematic' has been modified since the last extraction. Validate
+\o that the schematic is correct and run Check and Save to correct this error.
+\o 
+\o End netlisting Jan  4 08:46:46 2024
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o       ...unsuccessful.
+\r t
+\a hiResizeWindow(swindow(2) list(0:389 692:864))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "cascode_op schematic"
+\o Warning: Pin "G" on instance "M18": floating input/output.
+\o Warning: Pin "PLUS" on instance "R7": floating input/output.
+\o Warning: Floating net "net062" at (6.1250, -0.7500).
+\o INFO (SCH-1172): There were 0 errors and 3 warnings found in "mylib cascode_op schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox) 
+\r t
+\o INFO (SCH-1181): "mylib cascode_op schematic" saved.
+\r t
+\a hiResizeWindow(swindow(2) list(422:113 1114:588))
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan  4 08:46:54 2024
+\o End netlisting Jan  4 08:46:54 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   32
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiResizeWindow(swindow(2) list(0:389 692:864))
+\r t
+\a hiResizeWindow(window(9) list(0:164 515:864))
+\r t
+\a hiResizeWindow(swindow(3) list(46:-194 1046:606))
+\r t
+\a hiResizeWindow(swindow(3) list(-46:-87 954:713))
+\r t
+\a hiResizeWindow(swindow(3) list(0:64 1000:864))
+\r t
+\a hiResizeWindow(swindow(2) list(422:113 1114:588))
+\r t
+\a hiResizeWindow(swindow(2) list(0:389 692:864))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schHiMousePopUp()
+\i 5.9375:0.0625
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a schHiMousePopUp()
+\i 5.9375:0
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a schHiMousePopUp()
+\i 8.625:0.625
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a asaEditCompDisplay()
+\r window:10
+\a hiResizeWindow(window(10) list(327:169 897:657))
+\r t
+\a _annInstanceChanged(annotationSetupForm->annNativeWidget "smic18mmrf" "*" "*")
+\r t
+\a _annInstanceChanged(annotationSetupForm->annNativeWidget "smic18mmrf" "*" "*")
+\r t
+\a _annInstanceChanged(annotationSetupForm->annNativeWidget "smic18mmrf" "*" "*")
+\r t
+\a (_annLoadFileCB (hiGetCurrentWindow))
+\a _annInstanceChanged(annotationSetupForm->annNativeWidget "smic18mmrf" "*" "*")
+\r t
+\p > Select instance(s) for configuring the annotation setup...
+\a hiiSetCurrentForm('annLoadFileForm)
+\r t
+\a hiFormDone(annLoadFileForm)
+\o File /home/vlsidesign/stud30/.cadence/dfII/annotationSetups/mylib/cascode_op/schematic/annotationSetup.as loaded successfully
+\r t
+\r t
+\a _annInstanceChanged(annotationSetupForm->annNativeWidget "smic18mmrf" "*" "*")
+\r t
+\a _annOKFormCB(hiGetCurrentWindow())
+\p > Select instance(s) for configuring the annotation setup...
+\a hiiSetCurrentForm('notifyStarLevelSettingsNotAppliedToAll)
+\r t
+\a notifyStarLevelSettingsNotAppliedToAll->applyStarLevelSettingsToAll->value= t
+\r t
+\a hiFormDone(notifyStarLevelSettingsNotAppliedToAll)
+\r t
+\r t
+\a _hiSetCurrentWinNum(9)
+\w *WARNING* bad window(0x2556c5f8): not on window list
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a schSingleSelectPt()
+\i 6.125:-0.3125
+\r nil
+\a schSingleSelectPt()
+\i 5.6875:-1.125
+\r nil
+\a hiResizeWindow(window(9) list(8:-31 523:669))
+\r t
+\a hiSetCurrentWindow(window(9))
+\r t
+\a hiResizeWindow(window(9) list(0:164 515:864))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schSingleSelectPt()
+\i 5.0625:-1
+\r nil
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a schHiMousePopUp()
+\i -0.625:-0.375
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a annSchPopUp_schNoneSliderMenu->schNonePopUpDCVoltage->checked=t
+\p > 
+\a hiiSetCurrentForm('notifyGlobalNotAppliedToAll)
+\r t
+\a notifyGlobalNotAppliedToAll->applyGlobalsToAll->value= t
+\r t
+\a hiFormDone(notifyGlobalNotAppliedToAll)
+\r t
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 5.71875:-0.76875
+\r t
+\a mouseAddPt(t)
+\i 6.13125:-0.73125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "cascode_op schematic"
+\o Warning: Pin "PLUS" on instance "R7": floating input/output.
+\o INFO (SCH-1172): There were 0 errors and 1 warning found in "mylib cascode_op schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox) 
+\r t
+\o INFO (SCH-1181): "mylib cascode_op schematic" saved.
+\r t
+\a schSingleSelectPt()
+\i 6.125:-0.3125
+\r nil
+\a schSingleSelectPt()
+\i 6:-0.9375
+\r nil
+\a hiResizeWindow(swindow(2) list(422:113 1114:588))
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan  4 08:50:52 2024
+\o End netlisting Jan  4 08:50:52 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   32
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\a hiResizeWindow(swindow(2) list(276:115 968:590))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o WARNING (ADE-1019): A simulation is currently running. You must wait until the current
+\o         simulation is done to run another simulation.
+\r t
+\o simulate...
+\a hiResizeWindow(swindow(2) list(212:133 904:608))
+\r t
+\a hiResizeWindow(swindow(3) list(-46:-87 954:713))
+\r t
+\a hiResizeWindow(swindow(3) list(0:64 1000:864))
+\r t
+\a sevTableSelectRows(sevAnaForm1->anaListBox 3)
+\r t
+\a sevTableSelectRows(sevAnaForm1->anaListBox nil)
+\r t
+\a sevStopEngine('sevSession1)
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3069): Errors encountered during simulation. For more information, see the log files
+\o         accessible from the Simulation -> Output Log menu.
+\o reading simulation data...
+\o       ...successful.
+\r nil
+\a hiSetCurrentWindow(window(5))
+\r t
+\a hiResizeWindow(swindow(3) list(-46:-87 954:713))
+\r t
+\a hiResizeWindow(swindow(3) list(0:40 1536:841))
+\r t
+\a hiSetCurrentWindow(window(5))
+\r t
+\a hiResizeWindow(swindow(3) list(0:63 1536:864))
+\r t
+\a hiResizeWindow(swindow(2) list(0:389 692:864))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schSingleSelectPt()
+\i 6.25:-1.5
+\r t
+\a schSingleSelectPt()
+\i 6.3125:-1.75
+\r nil
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a schSingleSelectPt()
+\i 3.4375:-1.4375
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->r->value="400k"
+\r "400k"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 4.0625:-1
+\r nil
+\a schSingleSelectPt()
+\i 4.0625:-1
+\r nil
+\a schSingleSelectPt()
+\i 3.3125:-1.4375
+\r t
+\a schSingleSelectPt()
+\i 4.0625:-1.0625
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "cascode_op schematic"
+\o Warning: Pin "PLUS" on instance "R7": floating input/output.
+\o INFO (SCH-1172): There were 0 errors and 1 warning found in "mylib cascode_op schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox) 
+\r t
+\o INFO (SCH-1181): "mylib cascode_op schematic" saved.
+\r t
+\a hiResizeWindow(swindow(2) list(212:133 904:608))
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan  4 08:54:32 2024
+\o End netlisting Jan  4 08:54:32 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   32
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\a hiResizeWindow(swindow(2) list(212:133 904:609))
+\r t
+\a hiResizeWindow(swindow(2) list(227:139 919:615))
+\r t
+\a hiResizeWindow(swindow(2) list(0:388 692:864))
+\r t
+\a hiResizeWindow(swindow(3) list(0:40 1536:841))
+\r t
+\a hiResizeWindow(swindow(3) list(0:63 1536:864))
+\r t
+\a hiResizeWindow(swindow(2) list(227:139 919:615))
+\r t
+\a sevStopEngine('sevSession1)
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3069): Errors encountered during simulation. For more information, see the log files
+\o         accessible from the Simulation -> Output Log menu.
+\o reading simulation data...
+\o       ...successful.
+\r nil
+\a hiResizeWindow(swindow(2) list(0:388 692:864))
+\r t
+\a hiResizeWindow(swindow(2) list(227:139 919:615))
+\r t
+\a hiResizeWindow(swindow(3) list(0:40 1536:841))
+\r t
+\a hiResizeWindow(swindow(2) list(0:388 692:864))
+\r t
+\a hiResizeWindow(swindow(3) list(0:63 1536:864))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schSingleSelectPt()
+\i 3.375:-1.375
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->r->value="800k"
+\r "800k"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 4.125:-0.9375
+\r nil
+\a schSingleSelectPt()
+\i 4.1875:-1
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "cascode_op schematic"
+\o Warning: Pin "PLUS" on instance "R7": floating input/output.
+\o INFO (SCH-1172): There were 0 errors and 1 warning found in "mylib cascode_op schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox) 
+\r t
+\o INFO (SCH-1181): "mylib cascode_op schematic" saved.
+\r t
+\a hiResizeWindow(swindow(3) list(0:40 1536:841))
+\r t
+\a hiResizeWindow(swindow(2) list(227:139 919:615))
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan  4 08:55:40 2024
+\o End netlisting Jan  4 08:55:40 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   32
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\a hiResizeWindow(swindow(2) list(267:205 959:681))
+\r t
+\a hiResizeWindow(swindow(5) list(0:63 1536:864))
+\r t
+\a hiResizeWindow(swindow(3) list(0:63 1536:864))
+\r t
+\a hiResizeWindow(swindow(5) list(0:40 1536:841))
+\r t
+\a hiResizeWindow(swindow(3) list(0:40 1536:841))
+\r t
+\a hiResizeWindow(swindow(3) list(0:63 1536:864))
+\r t
+\a sevStopEngine('sevSession1)
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3069): Errors encountered during simulation. For more information, see the log files
+\o         accessible from the Simulation -> Output Log menu.
+\o reading simulation data...
+\o       ...successful.
+\a hiResizeWindow(swindow(2) list(0:388 692:864))
+\r t
+\r nil
+\a hiResizeWindow(swindow(3) list(0:40 1536:841))
+\r t
+\a hiResizeWindow(swindow(3) list(0:63 1536:864))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schSingleSelectPt()
+\i 3.3125:-1.375
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->r->value="500k"
+\r "500k"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 3.0625:-1.6875
+\r nil
+\a schSingleSelectPt()
+\i 3.375:-1.375
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a schSingleSelectPt()
+\i 5.125:-2
+\r nil
+\a schSingleSelectPt()
+\i 5.1875:-1.0625
+\r nil
+\a schSingleSelectPt()
+\i 5.1875:-1.0625
+\r nil
+\a schSingleSelectPt()
+\i 5.125:-1.125
+\r nil
+\a schSingleSelectPt()
+\i 5.125:-1.125
+\r nil
+\a schSingleSelectPt()
+\i 6.3125:-1.75
+\r nil
+\a schSingleSelectPt()
+\i 6:-0.75
+\r t
+\a schSingleSelectPt()
+\i 6:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 5.9375:-0.75
+\r t
+\a schSingleSelectPt()
+\i 5.9375:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 5.625:-1.125
+\r nil
+\a geScroll(nil "n" nil)
+\r t
+\a schSingleSelectPt()
+\i 6:-0.75
+\r t
+\a schSingleSelectPt()
+\i 5.6875:-0.9375
+\r nil
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a schSingleSelectPt()
+\i 4.1875:-0.375
+\r t
+\a schSingleSelectPt()
+\i 3.4375:-0.375
+\r t
+\a schSingleSelectPt()
+\i 4.25:-0.375
+\r t
+\a schSingleSelectPt()
+\i 5.25:-0.5
+\r t
+\a schSingleSelectPt()
+\i 5.25:-0.8125
+\r nil
+\a geScroll(nil "s" nil)
+\r t
+\a _schHiSave()
+\o INFO (SCH-1117): "cascode_op schematic" saved.
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "cascode_op schematic"
+\o Warning: Pin "PLUS" on instance "R7": floating input/output.
+\o INFO (SCH-1172): There were 0 errors and 1 warning found in "mylib cascode_op schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox) 
+\r t
+\o INFO (SCH-1181): "mylib cascode_op schematic" saved.
+\r t
+\a schSingleSelectPt()
+\i nil
+\r nil
+\a geScroll(nil "w" nil)
+\r t
+\a schSingleSelectPt()
+\i 3.3125:-1.3125
+\r t
+\a schSingleSelectPt()
+\i 3:-1.6875
+\r nil
+\a schSingleSelectPt()
+\i 3.9375:-0.875
+\r t
+\a schSingleSelectPt()
+\i 4:-1.125
+\r nil
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a schSingleSelectPt()
+\i 6.3125:-0.25
+\r nil
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a schSingleSelectPt()
+\i 7.4375:-0.75
+\r nil
+\a schSingleSelectPt()
+\i 7.4375:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 6.125:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.4375:-0.75
+\r nil
+\a schSingleSelectPt()
+\i 7.125:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7.5:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-0.6875
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 6.0625:-1.36875
+\r t
+\a mouseAddPt(t)
+\i 5.74375:-1.35625
+\r t
+\a mouseAddPt(t)
+\i 5.76875:-1.05
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 6:-1.0625
+\r t
+\a schSingleSelectPt()
+\i 8:-1.0625
+\r t
+\a schSingleSelectPt()
+\i 8:-1.0625
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schWirePopUp)
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schWirePopUp)
+\r t
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 8.54375:-1.06875
+\r t
+\a mouseAddPt(t)
+\i 7.63125:-1.06875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 8.75:-0.625
+\r nil
+\a schSingleSelectPt()
+\i 7.375:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 7.3125:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 7.375:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 8.875:-0.4375
+\r nil
+\a schSingleSelectPt()
+\i 7.3125:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 8.4375:-0.75
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 8.125:-0.75
+\r nil
+\a schSingleSelectPt()
+\i 7.4375:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 7.4375:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 8.0625:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 7.5625:-0.8125
+\r nil
+\a hiResizeWindow(swindow(2) list(267:205 959:681))
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a sevTableSelectRows(sevWindowForm1->varListBox 1)
+\r t
+\a sevTableSelectRows(sevWindowForm1->varListBox 0)
+\r t
+\a sevSetTableItem(sevWindowForm1->varListBox 0 1 "1u")
+\r t
+\a hiCloseWindow(swindow(2))
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schSingleSelectPt()
+\i 8.625:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 7.9375:-0.75
+\r nil
+\a schSingleSelectPt()
+\i 8.5:-0.5
+\r nil
+\a schSingleSelectPt()
+\i 7.6875:-0.6875
+\r nil
+\a hiDBoxCancel(sevblockingDialogBox t)
+\r t
+\r nil
+\a _hiSetCurrentWinNum(8)
+\r t
+\a schSingleSelectPt()
+\i 8:-0.75
+\r nil
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a schSingleSelectPt()
+\i 8:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-1.875
+\r t
+\a schSingleSelectPt()
+\i 8.25:-1.4375
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "cascode_op schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\o INFO (SCH-1181): "mylib cascode_op schematic" saved.
+\r t
+\a hiResizeWindow(swindow(2) list(267:205 959:681))
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan  4 09:01:46 2024
+\o End netlisting Jan  4 09:01:46 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   32
+\o 
+\o 	Elapsed time:          1.0s (32.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiResizeWindow(swindow(2) list(0:388 692:864))
+\r t
+\a hiResizeWindow(swindow(3) list(0:40 1536:841))
+\r t
+\a hiResizeWindow(swindow(3) list(0:63 1536:864))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schSingleSelectPt()
+\i 7.5625:-0.25
+\r t
+\a schSingleSelectPt()
+\i 8.6875:-0.25
+\r nil
+\a schSingleSelectPt()
+\i 8.6875:-0.25
+\r nil
+\a schSingleSelectPt()
+\i 6.4375:0.25
+\r t
+\a schSingleSelectPt()
+\i 7.0625:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7.125:-0.625
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7.4375:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 7.375:-0.625
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7.4375:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 6.5:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.0625:-0.5625
+\r nil
+\a schSingleSelectPt()
+\i 6.5:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.125:-0.4375
+\r nil
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a schSingleSelectPt()
+\i 7.375:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 6.375:0.1875
+\r t
+\a schSingleSelectPt()
+\i 7.3125:0.3125
+\r nil
+\a schSingleSelectPt()
+\i 6.4375:-0.8125
+\r t
+\a schSingleSelectPt()
+\i 7.375:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7.4375:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 6.4375:-0.6875
+\r t
+\a schSingleSelectPt()
+\i 7.25:-0.6875
+\r nil
+\a geScroll(nil "n" nil)
+\r t
+\a schSingleSelectPt()
+\i 6.5:0.1875
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="25u"
+\r "25u"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 6.375:-0.0625
+\r nil
+\a schSingleSelectPt()
+\i 6.5:-0.8125
+\r t
+\a schSingleSelectPt()
+\i 7.375:0.3125
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-0.3125
+\r t
+\a schSingleSelectPt()
+\i 7.25:0.4375
+\r nil
+\a geScroll(nil "s" nil)
+\r t
+\a schSingleSelectPt()
+\i 7.375:-0.5625
+\r nil
+\a schSingleSelectPt()
+\i 6.5:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.5625:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 6.5:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.125:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 7.1875:0.25
+\r nil
+\a schSingleSelectPt()
+\i 7.25:0.25
+\r nil
+\a schSingleSelectPt()
+\i 7.25:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 7.25:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 7.25:-0.6875
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "cascode_op schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\o INFO (SCH-1181): "mylib cascode_op schematic" saved.
+\r t
+\a hiResizeWindow(swindow(2) list(267:205 959:681))
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan  4 09:04:27 2024
+\o End netlisting Jan  4 09:04:27 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   32
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiResizeWindow(swindow(2) list(0:388 692:864))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schSingleSelectPt()
+\i 6.3125:-0.375
+\r nil
+\a schSingleSelectPt()
+\i 7.375:-0.625
+\r nil
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "e" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a schSingleSelectPt()
+\i 7.375:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 7:-1.9375
+\r nil
+\a schSingleSelectPt()
+\i 7.1875:-1.9375
+\r t
+\a schSingleSelectPt()
+\i 7.3125:-2.25
+\r nil
+\a geScroll(nil "s" nil)
+\r t
+\a schSingleSelectPt()
+\i 7.5:-2
+\r t
+\a schSingleSelectPt()
+\i 7.375:-2.5
+\r nil
+\a schSingleSelectPt()
+\i 7.1875:-1.75
+\r nil
+\a geScroll(nil "n" nil)
+\r t
+\a schSingleSelectPt()
+\i 7.375:-0.625
+\r nil
+\a schSingleSelectPt()
+\i 7.0625:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7.75:-0.9375
+\r nil
+\a schSingleSelectPt()
+\i 7.3125:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 7.3125:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 6.4375:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.375:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 6.4375:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.4375:-0.75
+\r nil
+\a schSingleSelectPt()
+\i 7.5625:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7.5:-1.9375
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="50u"
+\r "50u"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 8:-1.625
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-1.9375
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="60u"
+\r "60u"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 8.625:-0.625
+\r nil
+\a schSingleSelectPt()
+\i 7.4375:-0.25
+\r t
+\a schHiObjectProperty()
+\r t
+\a schSingleSelectPt()
+\i 6:0.1875
+\r t
+\a schSingleSelectPt()
+\i 6:-0.125
+\r nil
+\a schSingleSelectPt()
+\i 6.0625:0.1875
+\r t
+\a schSingleSelectPt()
+\i 7.1875:0.1875
+\r nil
+\a schSingleSelectPt()
+\i 7.5:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7.25:0.25
+\r nil
+\a schSingleSelectPt()
+\i 7.0625:-0.5
+\r nil
+\a schSingleSelectPt()
+\i 7:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7.5:-0.25
+\r t
+\a schSingleSelectPt()
+\i 7.3125:0.25
+\r nil
+\a schSingleSelectPt()
+\i 6.0625:0.1875
+\r t
+\a schSingleSelectPt()
+\i 6.5625:0.1875
+\r t
+\a schSingleSelectPt()
+\i 6.5:0.1875
+\r t
+\a schSingleSelectPt()
+\i 7.1875:0.3125
+\r nil
+\a schSingleSelectPt()
+\i 7.5625:-0.1875
+\r t
+\a schSingleSelectPt()
+\i 8.5625:-0.1875
+\r nil
+\a schSingleSelectPt()
+\i 7.5625:-2
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a schSingleSelectPt()
+\i 8.3125:-1.4375
+\r nil
+\a schSingleSelectPt()
+\i 7.5625:-0.125
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a schSingleSelectPt()
+\i 7.5625:-1.9375
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a schSingleSelectPt()
+\i 7.5625:-0.375
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="60u"
+\r "60u"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "cascode_op schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\o INFO (SCH-1181): "mylib cascode_op schematic" saved.
+\r t
+\a hiResizeWindow(swindow(2) list(267:205 959:681))
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan  4 09:07:11 2024
+\o End netlisting Jan  4 09:07:11 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   32
+\o 
+\o 	Elapsed time:          1.0s (32.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiResizeWindow(swindow(2) list(0:388 692:864))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schSingleSelectPt()
+\i 8.1875:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 8.1875:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 8.1875:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 8.3125:0.4375
+\r nil
+\a schSingleSelectPt()
+\i 7.4375:-0.75
+\r nil
+\a schSingleSelectPt()
+\i 6.5:0.125
+\r t
+\a schSingleSelectPt()
+\i 7.25:-0.625
+\r nil
+\a schSingleSelectPt()
+\i 6.5:-0.6875
+\r t
+\a schSingleSelectPt()
+\i 7.375:-0.625
+\r nil
+\a schSingleSelectPt()
+\i 6.375:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.25:-0.625
+\r nil
+\a schSingleSelectPt()
+\i 6.5:-0.75
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="10u"
+\r "10u"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 6.1875:-0.3125
+\r nil
+\a schSingleSelectPt()
+\i 7.3125:-0.5625
+\r nil
+\a schSingleSelectPt()
+\i 7.3125:-0.5625
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "cascode_op schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\o INFO (SCH-1181): "mylib cascode_op schematic" saved.
+\r t
+\a hiResizeWindow(swindow(3) list(0:40 1536:841))
+\r t
+\a hiResizeWindow(swindow(3) list(0:63 1536:864))
+\r t
+\a hiResizeWindow(swindow(2) list(267:205 959:681))
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /home/vlsidesign/stud30/simulation/op_test/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Jan  4 09:08:11 2024
+\o End netlisting Jan  4 09:08:11 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   32
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiResizeWindow(swindow(2) list(0:388 692:864))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a schSingleSelectPt()
+\i 8.625:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 7.375:-0.8125
+\r nil
+\a schSingleSelectPt()
+\i 6.4375:0.1875
+\r t
+\a schSingleSelectPt()
+\i 7.3125:0.3125
+\r nil
+\a schSingleSelectPt()
+\i 6.4375:0.25
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="20u"
+\r "20u"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 6.5:-0.8125
+\r t
+\a schSingleSelectPt()
+\i 6.1875:-0.3125
+\r nil
+\a schSingleSelectPt()
+\i 6.4375:-0.75
+\r t
+\a schSingleSelectPt()
+\i 6.25:-0.375
+\r nil
+\a schSingleSelectPt()
+\i 6.5:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.375:-0.625
+\r nil
+\a schSingleSelectPt()
+\i 7.5625:-1.9375
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="52.5u"
+\r "52.5u"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 7.5:-0.25
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="62.5u"
+\r "62.5u"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 8.625:0.25
+\r nil
+\a schSingleSelectPt()
+\i 7.5625:-0.25
+\r t
+\a schSingleSelectPt()
+\i 8.25:0.125
+\r nil
+\a schSingleSelectPt()
+\i 7.3125:-0.875
+\r nil
+\a schSingleSelectPt()
+\i 7.5625:-0.1875
+\r t
+\a schSingleSelectPt()
+\i 7.5625:-1.9375
+\r t
+\a schSingleSelectPt()
+\i 8.25:-0.625
+\r nil
+\a schSingleSelectPt()
+\i 7.3125:-0.5625
+\r nil
+\a schSingleSelectPt()
+\i 6.4375:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.3125:-0.5
+\r nil
+\a schSingleSelectPt()
+\i 7.3125:-0.5
+\r nil
+\a schSingleSelectPt()
+\i 6.5:-0.75
+\r t
+\a schSingleSelectPt()
+\i 7.3125:-0.5625
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "cascode_op schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\o INFO (SCH-1181): "mylib cascode_op schematic" saved.
+\r t
+\w Qt Warning: The X11 connection broke (error 1). Did the X11 server die?
+\e IO Error 11 (Resource temporarily unavailable) on Display "localhost:11.0"
 \e Aborting due to fatal X IO error.
 \w *WARNING* Process was terminated with SIGABRT signal
-\o Local time (crash) Monday 25 December 2023, 10:27:19 PM
+\o Local time (crash) Thursday 04 January 2024, 09:25:03 AM

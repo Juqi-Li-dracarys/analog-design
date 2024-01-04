@@ -4,8 +4,13 @@ simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
     sensfile="../psf/sens.output" checklimitdest=psf 
 dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
 dcOpInfo info what=oppoint where=rawfile
-dc dc param=vac start=0 stop=30u oppoint=rawfile maxiters=150 \
+dc dc param=vcom start=0 stop=3.3 oppoint=rawfile maxiters=150 \
     maxsteps=10000 annotate=status
+ac ac start=1 stop=1G annotate=status 
+tran tran stop=10m write="spectre.ic" writefinal="spectre.fc" \
+    annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+pz ( net7 0 ) pz iprobe=V2 freq=1 
 modelParameter info what=models where=rawfile
 element info what=inst where=rawfile
 outputParameter info what=output where=rawfile

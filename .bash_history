@@ -190,3 +190,103 @@ cd schematic
 ls
 rm sch.oa.cdslck  sch.oa.cdslck.RHEL30.dell01.285039
 virtuoso &
+cd mylib/op_test
+ls
+cd schematic
+ls
+rm sch.oa.cdslck  sch.oa.cdslck.RHEL30.dell01.293505
+ls
+virtuoso &
+cd ~
+ls
+rm CDS.log.2.cdslck
+virtuoso &
+git 
+�cd mylib
+ls
+cd mylib
+ls
+git init
+ls
+ls -a
+ssh-keygen -t rsa -C "2223621784@qq.com"
+ls
+cd ..
+ls
+pwd
+ls -a
+cd .ssh
+ls -a
+vim id_rsa.pub
+cd ..
+ls
+cd mylib
+ls -a
+git add .
+git status
+git config --global user.name “usernme "LJQ"
+git config --global user.email “emai "2223621784@qq.com"
+git commit -m "my first commit"
+git status
+git log
+ssh -T git@github.com
+git remote add origin git@github.com:Juqi-Li-dracarys/analog-design.git
+git remote -v
+git push origin
+git branch
+git push origin master
+cd ..
+ls
+cd simulation
+ls
+cd op_test
+ls
+cd spectre
+ls
+cd schematic
+ls
+cd psf
+ls
+cd ~
+ls
+du 
+ls
+cd ..
+ls
+du -a
+du -a stud1
+cd stud30
+ls
+cd mylib
+ls
+cd ..
+ls
+cd ~
+du -c
+ls -a
+cd my_lib
+cd mylib
+ls
+ls -a
+cp .git ../
+cp -r .git ../
+ls
+cd ..
+ls -a
+cd mylib
+rm .git
+rm -r .git
+rm -rf .git
+ls -a
+cd ..
+ls -a
+git commit -m "second commit"
+git add .
+git status
+git add .
+git add --all
+git commit -m "second commit"
+git status
+git push origin master
+logout
+virtuoso &

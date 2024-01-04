@@ -1,17 +1,19 @@
 // Generated for: spectre
-// Generated on: Dec 26 00:34:13 2023
+// Generated on: Jan  4 11:15:59 2024
 // Design library name: mylib
 // Design cell name: op_test
 // Design view name: schematic
 simulator lang=spectre
 global 0 vdd!
-parameters vac=100m vcom=1.2
+parameters vac=1 vcom=1.6
 include "/home/vlsidesign/assistant1/SPDK18MMRF_1833_CDS_v2.0/smic18mmrf_1P6M_200709151808/models/spectre/allModels"
 
 // Library name: mylib
 // Cell name: cascode_op
 // View name: schematic
 subckt cascode_op vin\+ vin\- vout
+    M20 (vout net037 0 0) n33 w=(62.5u) l=500n as=30p ad=30p ps=125.96u \
+        pd=125.96u m=(1)*(1)
     M27 (vdd! net02 net063 0) n33 w=(5u) l=500n as=2.4p ad=2.4p ps=10.96u \
         pd=10.96u m=(1)*(1)
     M25 (net063 net037 0 0) n33 w=(5u) l=500n as=2.4p ad=2.4p ps=10.96u \
@@ -20,74 +22,79 @@ subckt cascode_op vin\+ vin\- vout
         ps=1.88u pd=1.88u m=(1)*(1)
     M26 (net02 net02 0 0) n33 w=(500n) l=10u as=240f ad=240f ps=1.96u \
         pd=1.96u m=(1)*(1)
-    M20 (vout net037 0 0) n33 w=(62.5u) l=500n as=30p ad=30p ps=125.96u \
-        pd=125.96u m=(1)*(1)
-    M13 (net35 net13 0 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p ps=27.96u \
-        pd=27.96u m=(1)*(1)
-    M12 (net13 net14 net35 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p \
+    M13 (net34 net13 0 0) n33 w=(10u) l=500n as=4.8p ad=4.8p ps=20.96u \
+        pd=20.96u m=(1)*(1)
+    M12 (net13 net9 net34 0) n33 w=(20u) l=500n as=9.6p ad=9.6p ps=40.96u \
+        pd=40.96u m=(1)*(1)
+    M11 (net9 net037 0 0) n33 w=(625n) l=500n as=300f ad=300f ps=2.21u \
+        pd=2.21u m=(1)*(1)
+    M10 (net35 net13 0 0) n33 w=(10u) l=500n as=4.8p ad=4.8p ps=20.96u \
+        pd=20.96u m=(1)*(1)
+    M9 (net056 net9 net35 0) n33 w=(20u) l=500n as=9.6p ad=9.6p ps=40.96u \
+        pd=40.96u m=(1)*(1)
+    M2 (net26 vin\+ net2 0) n33 w=(20u) l=500n as=9.6p ad=9.6p ps=40.96u \
+        pd=40.96u m=(1)*(1)
+    M1 (net24 vin\- net2 0) n33 w=(20u) l=500n as=9.6p ad=9.6p ps=40.96u \
+        pd=40.96u m=(1)*(1)
+    M0 (net2 net037 0 0) n33 w=(75u) l=500n as=36p ad=36p ps=150.96u \
+        pd=150.96u m=(1)*(1)
+    M32 (net35 vin\+ net020 vdd!) p33 w=(13.5u) l=500n as=6.48p ad=6.48p \
         ps=27.96u pd=27.96u m=(1)*(1)
-    M11 (net9 net037 0 0) n33 w=(62.5u) l=500n as=30p ad=30p ps=125.96u \
-        pd=125.96u m=(1)*(1)
-    M10 (net34 net13 0 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p ps=27.96u \
-        pd=27.96u m=(1)*(1)
-    M9 (net047 net14 net34 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p \
-        ps=27.96u pd=27.96u m=(1)*(1)
-    M2 (net26 vin\+ net2 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p \
-        ps=27.96u pd=27.96u m=(1)*(1)
-    M1 (net24 vin\- net2 0) n33 w=(13.5u) l=500n as=6.48p ad=6.48p \
-        ps=27.96u pd=27.96u m=(1)*(1)
-    M0 (net2 net037 0 0) n33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
-        pd=100.96u m=(1)*(1)
     M22 (net03 net03 vdd! vdd!) p33 w=(5u) l=500n as=2.4p ad=2.4p \
         ps=10.96u pd=10.96u m=(1)*(1)
     M21 (net063 net03 vdd! vdd!) p33 w=(5u) l=500n as=2.4p ad=2.4p \
         ps=10.96u pd=10.96u m=(1)*(1)
-    M18 (0 net047 net029 vdd!) p33 w=(20.5u) l=500n as=9.84p ad=9.84p \
-        ps=41.96u pd=41.96u m=(1)*(1)
+    M18 (0 net056 net029 vdd!) p33 w=(5.2u) l=500n as=2.496p ad=2.496p \
+        ps=11.36u pd=11.36u m=(1)*(1)
     M19 (vout net029 vdd! vdd!) p33 w=(50u) l=500n as=24p ad=24p \
         ps=100.96u pd=100.96u m=(1)*(1)
-    M17 (net029 net10 vdd! vdd!) p33 w=(50u) l=500n as=24p ad=24p \
+    M30 (net020 net03 vdd! vdd!) p33 w=(75u) l=500n as=36p ad=36p \
+        ps=150.96u pd=150.96u m=(1)*(1)
+    M28 (net34 vin\- net020 vdd!) p33 w=(13.5u) l=500n as=6.48p ad=6.48p \
+        ps=27.96u pd=27.96u m=(1)*(1)
+    M17 (net029 net10 vdd! vdd!) p33 w=(10u) l=500n as=4.8p ad=4.8p \
+        ps=20.96u pd=20.96u m=(1)*(1)
+    M8 (net056 net9 net26 vdd!) p33 w=(50u) l=500n as=24p ad=24p \
         ps=100.96u pd=100.96u m=(1)*(1)
-    M8 (net047 net9 net26 vdd!) p33 w=(50u) l=500n as=24p ad=24p \
-        ps=100.96u pd=100.96u m=(1)*(1)
-    M7 (net14 net9 net24 vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
+    M7 (net13 net9 net24 vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
         pd=100.96u m=(1)*(1)
-    M6 (net10 net9 net36 vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
-        pd=100.96u m=(1)*(1)
-    M5 (net36 net10 vdd! vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
-        pd=100.96u m=(1)*(1)
+    M6 (net10 net9 net36 vdd!) p33 w=(500n) l=500n as=240f ad=240f \
+        ps=1.96u pd=1.96u m=(1)*(1)
+    M5 (net36 net10 vdd! vdd!) p33 w=(500n) l=500n as=240f ad=240f \
+        ps=1.96u pd=1.96u m=(1)*(1)
     M4 (net26 net10 vdd! vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
         pd=100.96u m=(1)*(1)
     M3 (net24 net10 vdd! vdd!) p33 w=(50u) l=500n as=24p ad=24p ps=100.96u \
         pd=100.96u m=(1)*(1)
     R10 (vdd! net02) resistor r=95K
     R8 (net037 0) resistor r=95K
-    R7 (net047 net21) resistor r=12K
-    R1 (net14 net13) resistor r=3.3K
-    R0 (net10 net9) resistor r=3.5K
-    C0 (vout net21) capacitor c=3p
+    R7 (net056 net21) resistor r=6.5K
+    R0 (net10 net9) resistor r=500K
+    C0 (vout net21) capacitor c=4p
 ends cascode_op
 // End of subcircuit definition.
 
 // Library name: mylib
 // Cell name: op_test
 // View name: schematic
-I3 (net04 net06 net07) cascode_op
-I0 (net04 net06 net7) cascode_op
-V4 (net04 net06) vsource dc=vac type=dc
+V2 (net04 net06) vsource mag=1 type=sine ampl=vac freq=1K
 V1 (net06 0) vsource dc=vcom type=dc
 V0 (vdd! 0) vsource dc=3.3 type=dc
-R0 (net7 0) resistor r=500K
-C1 (net07 0) capacitor c=10p
-C0 (net7 0) capacitor c=10p
+I4 (net04 net011 net011) cascode_op
+C0 (net011 0) capacitor c=10p
 simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
     iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
     maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
     sensfile="../psf/sens.output" checklimitdest=psf 
 dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
 dcOpInfo info what=oppoint where=rawfile
-dc dc param=vac start=0 stop=30u oppoint=rawfile maxiters=150 \
+dc dc param=vcom start=0 stop=3.3 oppoint=rawfile maxiters=150 \
     maxsteps=10000 annotate=status
+ac ac start=1 stop=1G annotate=status 
+tran tran stop=10m write="spectre.ic" writefinal="spectre.fc" \
+    annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+pz ( net7 0 ) pz iprobe=V2 freq=1 
 modelParameter info what=models where=rawfile
 element info what=inst where=rawfile
 outputParameter info what=output where=rawfile
